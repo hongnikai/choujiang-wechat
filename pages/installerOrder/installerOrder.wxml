@@ -1,0 +1,46 @@
+<view class='installerOrder'>
+  <!-- 1 -->
+  <view class='installerOrder-order'>
+    <view class='installerOrder-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>哈哈哈员工</view>
+    </view>
+    <view class='installerOrder-order-mid'>
+      <view>安装</view>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='installerOrder-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+      <text>单装</text>
+    </view>
+  </view>
+  <!-- 2 -->
+  <view class='installerOrder-order'>
+    <view class='installerOrder-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>哈哈哈员工</view>
+    </view>
+    <view class='installerOrder-order-mid'>
+      <view>安装</view>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='installerOrder-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+      <text>单装</text>
+    </view>
+  </view>
+</view>

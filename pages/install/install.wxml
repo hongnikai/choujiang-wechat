@@ -1,0 +1,49 @@
+<view class='install'>
+  <!-- 安装类型 -->
+  <view class='install-installType'>
+    <view class='install-installType-top'>请选择安装类型</view>
+    <view class='install-installType-text'>
+     <block wx:for="{{installTypeList}}" wx:key="id" wx:for-index="i">
+      <view class="{{installTypeItem==item.id?'install-installType-text-viewClick':'install-installType-text-view'}}" data-id="{{item.id}}" bindtap="installTypeSelection">{{item.installType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 空调品牌 -->
+  <view class='install-brand'>
+    <view class='install-brand-top'>空调品牌</view>
+    <view class='install-brand-text'>
+      <block wx:for="{{brandTypeList}}" wx:key="id" wx:for-index="i">
+        <view class="{{brandTypeItem==item.id?'install-brand-text-view-click':'install-brand-text-view'}}" data-id="{{item.id}}" bindtap="brandTypeSelection">{{item.brandType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 空调用途 -->
+  <view class='install-use'>
+    <view class='install-use-top'>空调用途</view>
+    <view class='install-use-text'>
+      <block wx:for="{{useTypeList}}" wx:key="id" wx:for-index="i">
+        <view class="{{useTypeItem==item.id?'install-use-text-view-click':'install-use-text-view'}}" data-id="{{item.id}}" bindtap="useTypeSelection">{{item.useType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 空调类型 -->
+  <view class='install-Ctype'>
+    <view class='install-Ctype-top'>空调类型</view>
+    <view class='install-Ctype-text'>
+      <block wx:for="{{CTypeList}}" wx:key="id" wx:for-index="i">
+        <view class="{{CTypeItem==item.id?'install-Ctype-text-view-click':'install-Ctype-text-view'}}" data-id="{{item.id}}" bindtap="CTypeSelection">{{item.CType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 匹数 -->
+  <view class='install-Ptype'>
+    <view class='install-Ptype-top'>匹数</view>
+    <view class='install-Ptype-text'>
+      <block wx:for="{{PTypeList}}" wx:key="id" wx:for-index="i">
+        <view class="{{PTypeItem==item.id?'install-Ptype-text-view-click':'install-Ptype-text-view'}}" data-id="{{item.id}}" bindtap="PTypeSelection">{{item.PType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 下一步 -->
+   <view class='install-next'>下一步</view> 
+</view>

@@ -1,0 +1,139 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.techniqueOrder-top{
+  width:100%;
+  height:100rpx;
+  background-color: #fff;
+  margin-top: 5rpx;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 15rpx;
+}
+.techniqueOrder-top view{
+  width:25%;
+  height:100rpx;
+  float:left;
+}
+.techniqueOrder-top view text{
+  width:80%;
+  height:100%;
+  line-height:100rpx;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32rpx;
+}
+.techniqueOrder-top-text{
+  color:#333;
+}
+.techniqueOrder-top-textClick{
+  color:#2abbb4;
+  border-bottom:2px solid #2abbb4; 
+}
+.techniqueOrder-detail{
+  width:100%;
+}
+.techniqueOrder-detail2-top{
+  width:100%;
+  height:64rpx;
+  border-bottom: 1px solid #ccc;
+}
+.techniqueOrder-detail2-top text{
+  font-size: 28rpx;
+  color:#4dc2bc;
+  line-height:64rpx;
+}
+.techniqueOrder-detail2-top text:nth-child(4){
+  float:right;
+  width:88rpx;
+  height:38rpx;
+  background-color:#2abbb4;
+  color:#fff;
+  line-height:38rpx !important;
+  margin-top:13rpx;
+  border-radius:15rpx;
+  text-align:center;
+  font-size:24rpx;
+}
+.techniqueOrder-detail2{
+  width:100%;
+  height:220rpx;
+  background-color: #fff;
+  border-bottom:1rpx solid #ccc;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.techniqueOrder-detail2-content{
+  width:100%;
+}
+.techniqueOrder-detail2-content1,.techniqueOrder-detail2-content2{
+  width:100%;
+  height:80rpx;
+}
+.techniqueOrder-detail2-content1 view,.techniqueOrder-detail2-content1 image{
+  display: inline-block;
+}
+.techniqueOrder-detail2-content1 view{
+  width:112rpx;
+  height:44rpx;
+  background-color: #2abbb4;
+  color: #fff;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height:44rpx;
+  margin-top: 18rpx;
+}
+.techniqueOrder-detail2-content1 image{
+  width:22rpx;
+  height:22rpx;
+  float: right;
+  margin-top: 29rpx;
+}
+.techniqueOrder-detail2-content2{
+  width:100%;
+  height:80rpx;
+  font-size: 28rpx;
+  color:#999;
+  line-height:80rpx;
+}
+.techniqueOrder-detail2-content2 text{
+  margin-right: 10rpx;
+}
+.employeeCenter-footer{
+  width:100%;
+  height:100rpx;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom: 0;
+  clear:both;
+}
+.employeeCenter-footer view{
+  width:25%;
+  height:100%;
+  float: left;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+.employeeCenter-footer image{
+  width:50rpx;
+  height:50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.employeeCenter-footer text{
+  font-size:20rpx;
+  text-align: center;
+  display: block;
+}
+.employeeCenter-footer-text4{
+  color:#2abbb4;
+}

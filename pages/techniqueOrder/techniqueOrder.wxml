@@ -1,0 +1,107 @@
+<view class='techniqueOrder'>
+  <!-- 我的订单头部 -->
+  <view class='techniqueOrder-top'>
+    <view bindtap='textClick1'>
+      <text class="{{isChecked1?'techniqueOrder-top-textClick':'techniqueOrder-top-text'}}">全部</text>
+    </view>
+    <view bindtap='textClick2'>
+      <text class="{{isChecked2?'techniqueOrder-top-textClick':'techniqueOrder-top-text'}}">待接单</text>
+    </view>
+    <view bindtap='textClick3'>
+      <text class="{{isChecked3?'techniqueOrder-top-textClick':'techniqueOrder-top-text'}}">未完成</text>
+    </view>
+    <view bindtap='textClick4'>
+      <text class="{{isChecked4?'techniqueOrder-top-textClick':'techniqueOrder-top-text'}}">已完成</text>
+    </view>
+  </view>
+  <!-- 我的订单详情部分 -->
+  <view class='techniqueOrder-detail'>
+    <!-- 未完成样式2 -->
+    <view class='techniqueOrder-detail2'>
+      <view class='techniqueOrder-detail2-top'>
+        <text>02.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>报价</text>
+      </view>
+      <!-- 详情部分 -->
+      <view class='techniqueOrder-detail2-content'>
+        <view class='techniqueOrder-detail2-content1'>
+          <!-- 维修/保养/安装 -->
+          <view>维修</view>
+          <image src='../../img/icon_in@2x.png'></image>
+        </view>
+        <view class='techniqueOrder-detail2-content2'>
+          <text>美的空调</text>
+          <text>家用中央空调</text>
+          <text>柜机</text>
+          <text>3匹</text>
+        </view>
+      </view>
+    </view>
+    <!-- 未完成样式2 -->
+    <view class='techniqueOrder-detail2'>
+      <view class='techniqueOrder-detail2-top'>
+        <text>02.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>报价</text>
+      </view>
+      <!-- 详情部分 -->
+      <view class='techniqueOrder-detail2-content'>
+        <view class='techniqueOrder-detail2-content1'>
+          <!-- 维修/保养/安装 -->
+          <view>维修</view>
+          <image src='../../img/icon_in@2x.png'></image>
+        </view>
+        <view class='techniqueOrder-detail2-content2'>
+          <text>美的空调</text>
+          <text>家用中央空调</text>
+          <text>柜机</text>
+          <text>3匹</text>
+        </view>
+      </view>
+    </view><!-- 未完成样式2 -->
+    <view class='techniqueOrder-detail2'>
+      <view class='techniqueOrder-detail2-top'>
+        <text>02.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>报价</text>
+      </view>
+      <!-- 详情部分 -->
+      <view class='techniqueOrder-detail2-content'>
+        <view class='techniqueOrder-detail2-content1'>
+          <!-- 维修/保养/安装 -->
+          <view>维修</view>
+          <image src='../../img/icon_in@2x.png'></image>
+        </view>
+        <view class='techniqueOrder-detail2-content2'>
+          <text>美的空调</text>
+          <text>家用中央空调</text>
+          <text>柜机</text>
+          <text>3匹</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部导航栏 -->
+  <view class='employeeCenter-footer'>
+    <view bindtap='toIndex'>
+      <image src='../../img/icon_home@2x.png'></image>
+      <text>首页</text>
+    </view>
+    <view>
+      <image src='../../img/icon_fenlei@2x.png'></image>
+      <text>分类</text>
+    </view>
+    <view bindtap='totechniqueOrder'>
+      <image src='../../img/icon_orders_green@2x.png'></image>
+      <text class='employeeCenter-footer-text4'>订单</text>
+    </view>
+    <view bindtap='toEmployeeCenter'>
+      <image src='../../img/icon_user@2x.png'></image>
+      <text>我的</text>
+    </view>
+  </view>
+</view>

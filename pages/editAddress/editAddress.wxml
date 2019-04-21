@@ -1,0 +1,47 @@
+<view class='editAddress'>
+  <view class='editAddress-all'>
+    <!-- 收货人 -->
+    <view class='editAddress-name'>
+      <view class='editAddress-name-left'>收货人</view>
+      <view class='editAddress-name-right'><input type='text' placeholder='请输入收货人姓名' value='哈哈哈'></input></view>
+    </view>
+    <!-- 联系电话 -->
+    <view class='editAddress-name'>
+      <view class='editAddress-name-left'>联系电话</view>
+      <view class='editAddress-name-right'><input type='text' placeholder='请输入收货人联系电话' value='15023654780'></input></view>
+    </view>
+    <!-- 所在地区 -->
+    <view class='editAddress-name'>
+      <view class='editAddress-name-left'>所在地区</view>
+      <view class='editAddress-name-right' bindtap="selectDistrict"><input type='text' placeholder='请输入所在地区' value='{{areaInfo}}' focus="{{focus}}" disabled></input></view>
+    </view>
+    <!-- 详细地址 -->
+    <view class='editAddress-name'>
+      <view class='editAddress-name-left'>详细地址</view>
+      <view class='editAddress-name-right'><input type='text' placeholder='请输入详细地址'  value='辽宁省沈阳市浑南新区百科软件园'></input></view>
+    </view>
+  </view>
+  <!-- 保存地址 -->
+  <view class='editAddress-save' bindtap='toMineLocation'>
+    保存地址
+  </view>
+</view>
+<!-- 选择城市省市区三级联动弹框 -->
+<view class="dialog-mask " style="z-index:11;visibility:{{addressMenuIsShow ? 'visible': 'hidden'}}" bindtap="hideCitySelected" />
+<view class="picker-view" animation="{{animationAddressMenu}}" style="visibility:{{addressMenuIsShow ? 'visible':'hidden'}}">
+  <view style="height:10% ;width:95%;margin-top:10rpx">
+    <text catchtap="cityCancel">取消</text>
+    <text style="float: right" catchtap="citySure">确定</text>
+  </view>
+  <picker-view style="width: 100%; height: 300px;" bindchange="cityChange" value="{{value}}" wx:key="">
+    <picker-view-column>
+      <view wx:for="{{provinces}}" class="picker-item">{{item.name}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{citys}}" class="picker-item" wx:key="">{{item.name}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{areas}}" class="picker-item" wx:key="">{{item.name}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>

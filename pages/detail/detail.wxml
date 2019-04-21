@@ -1,0 +1,187 @@
+<view class='detail'>
+  <!-- 商品详情图片 -->
+  <view class='detail-top' style='background-image:url({{backImage}});background-size:100% 100%;'>
+    <image src="../../img/icon_backcircle@2x.png" class='detail-top-back'></image>
+  </view>
+  <!-- 商品名称和价格 -->
+  <view class='detail-mid'>
+    <view class='detail-mid-name'>美的家用空调</view>
+    <view class='detail-mid-price'>
+      <view class='detail-mid-price-left'>￥8000</view>
+      <view class='detail-mid-price-right'>有货</view>
+    </view>
+  </view>
+  <!-- 参数 -->
+  <view class='detail-parameter' bindtap='parameterAppear'>
+    <text>参数</text>
+    <image src="../../img/icon_in@2x.png"></image>
+  </view>
+  <!-- 评论和问答 -->
+  <view class='detail-bottom'>
+    <!-- 评论 -->
+    <view class='detail-bottom-review'>
+      <view class='detail-bottom-review-list'>
+        <view class='detail-bottom-review-list-top'>
+          <image src='../../img/img_detail_user@2x.png'></image>
+          <view>
+            <text>老虎</text>
+            <text>2016-12-13</text>
+          </view>
+        </view>
+        <view class='detail-bottom-review-list-text'>
+          好评，很好，服务态度很好，很喜欢！！！
+        </view>
+      </view>
+      <view class='detail-bottom-review-more'>
+        查看更多
+      </view>
+    </view>
+    <!-- 问答 -->
+    <view class='detail-bottom-answer'>
+      <view class='detail-bottom-answer-top'>问大家</view>
+      <view class='detail-bottom-answer-list'>
+        <view class='detail-bottom-answer-list-left'>
+          问
+        </view>
+        <view class='detail-bottom-answer-list-right'>
+          <view class='detail-bottom-answer-list-right-top'>
+            大家的软件是在哪里下载的，为什么我的下载不了？
+          </view>
+          <view class='detail-bottom-answer-list-right-bottom'>
+            <text>2</text><text>个回答</text>
+          </view>
+        </view>
+      </view>
+      <view class='detail-bottom-answer-list'>
+        <view class='detail-bottom-answer-list-left'>
+          问
+        </view>
+        <view class='detail-bottom-answer-list-right'>
+          <view class='detail-bottom-answer-list-right-top'>
+            大家的软件是在哪里下载的，为什么我的下载不了？
+          </view>
+          <view class='detail-bottom-answer-list-right-bottom'>
+            <text>2</text><text>个回答</text>
+          </view>
+        </view>
+      </view>
+      <view class='detail-bottom-answer-list'>
+        <view class='detail-bottom-answer-list-left'>
+          问
+        </view>
+        <view class='detail-bottom-answer-list-right'>
+          <view class='detail-bottom-answer-list-right-top'>
+            大家的软件是在哪里下载的，为什么我的下载不了？
+          </view>
+          <view class='detail-bottom-answer-list-right-bottom'>
+            <text>2</text><text>个回答</text>
+          </view>
+        </view>
+      </view>
+      <view class='detail-bottom-answer-more'>
+        查看全部问题
+      </view>
+    </view>
+  </view>
+  <!-- 商品详情图片 -->
+  <view class='detail-image'>
+    <image src='../../img/img_detal@2x.png'></image>
+    <image src='../../img/img_detal@2x.png'></image>
+  </view>
+  <!-- 商品详情底部 -->
+  <view class='detail-footer'>
+    <view class='detail-footer-left'>
+      <view>
+        <image src='../../img/icon_detail_xsy@2x.png'></image>
+        <text>销售员</text>
+      </view>
+      <view>
+        <image src='../../img/icon_detail_sc@2x.png'></image>
+        <text>收藏</text>
+      </view>
+      <view bindtap='toShopCar'>
+        <image src='../../img/icon_user_gwc@2x.png'></image>
+        <text>购物车</text>
+      </view>
+    </view>
+    <view class='detail-footer-right'>
+      <view class='detail-footer-right-left' bindtap='shopCarShow'>
+        加入购物车
+      </view>
+      <view class='detail-footer-right-right'>
+        立即购买
+      </view>
+    </view>
+  </view>
+  <!-- 灰色背景 -->
+  <view class='{{showView?"detail-hui":"detail-tanHide"}}' bindtap='clickHide'></view>
+  <!-- 产品参数具体详情弹框 -->
+  <view class='{{showView1?"detail-parameter-tan":"detail-tanHide"}}'>
+    <view class='detail-parameter-tan-top'>产品参数</view>
+    <view class='detail-parameter-tan-text'>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>内机包装尺寸</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view> 
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+      <view class='detail-parameter-tan-text-list'>
+        <view class='detail-parameter-tan-text-listL'>上市时间</view>
+        <view class='detail-parameter-tan-text-listR'>2015-10</view>
+      </view>
+    </view>
+    <view class='detail-parameter-tan-bottom' bindtap='clickHide'>确定</view>
+  </view>
+  <!-- 购物车部分 -->
+  <view class='{{showView2?"detail-shopCar-tan":"detail-tanHide"}}'>
+    <view class='detail-shopCar-tan-top'>
+      <image src='../../img/img_detal@2x.png'></image>
+      <view>
+        <text>格力空调</text>
+        <text>￥5555</text>
+      </view>
+    </view>
+    <view class='detail-shopCar-tan-text'>
+      <view class='detail-shopCar-tan-text-left'>格力空调</view>
+      <view class='detail-shopCar-tan-text-right'>
+        <!-- 减号 -->  
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+        <!-- 数值 -->  
+        <input type="number" bindchange="bindManual" value="{{num}}" />  
+        <!-- 加号 -->  
+        <text class="normal" bindtap="bindPlus">+</text> 
+      </view>
+    </view>
+    <view class='detail-shopCar-tan-price'>
+      <text class='detail-shopCar-tan-price1'>￥5555</text>
+      <text class='detail-shopCar-tan-price2'>合计</text>
+    </view>
+    <view class='detail-shopCar-tan-bottom' bindtap='clickHide'>确定</view>
+  </view>
+</view>

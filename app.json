@@ -1,0 +1,79 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    
+    "pages/myOrder/myOrder",
+    "pages/mine/mine",
+    "pages/shopCar/shopCar",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/evaluationList/evaluationList",
+    "pages/evaluation/evaluation",
+    "pages/confirmOrder/confirmOrder",
+    "pages/orderDetail/orderDetail",
+    "pages/askEveryone/askEveryone",
+    "pages/askDetail/askDetail",
+    "pages/bookingTime/bookingTime",
+    "pages/mineMsg/mineMsg",
+    "pages/mineLocation/mineLocation",
+    "pages/editAddress/editAddress",
+    "pages/addAddress/addAddress",
+    "pages/myCollection/myCollection",
+    "pages/setDefaultAddress/setDefaultAddress",
+    "pages/setup/setup",
+    "pages/install/install",
+    "pages/installConfirmOrder/installConfirmOrder",
+    "pages/installOrderDetail/installOrderDetail",
+    "pages/installSchedule/installSchedule",
+    "pages/upkeep/upkeep",
+    "pages/upkeepConfirmOrder/upkeepConfirmOrder",
+    "pages/upkeepOrderDetail/upkeepOrderDetail",
+    "pages/upkeepSchedule/upkeepSchedule",
+    "pages/maintain/maintain",
+    "pages/maintainConfirmOrder/maintainConfirmOrder",
+    "pages/maintainOrderDetail/maintainOrderDetail",
+    "pages/maintainSchedule/maintainSchedule",
+    "pages/registration/registration",
+    "pages/employeeSetup/employeeSetup",
+    "pages/employeeCenter/employeeCenter",
+    "pages/employeeOffer/employeeOffer",
+    "pages/manage/manage",
+    "pages/employeeOrder/employeeOrder",
+    "pages/employeesWork/employeesWork",
+    "pages/employeesList/employeesList",
+    "pages/installerOrder/installerOrder",
+    "pages/salesOrder/salesOrder",
+    "pages/techniqueOrder/techniqueOrder",
+    "pages/techniqueOrderDetail/techniqueOrderDetail",
+    "pages/techniqueSchedule/techniqueSchedule",
+    "pages/logs/logs"
+  ],
+  "tabBar":{
+    "color":"#333",
+    "selectedColor":"#7fd6d2",
+    "backgroundColor":"#fff",
+    "borderStyle":"#333",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"img/icon_home@2x.png",
+      "selectedIconPath":"img/icon_home_green@2x.png"
+    },{
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "img/icon_fenlei@2x.png",
+      "selectedIconPath": "img/icon_fenlei_green@2x.png"
+    },{
+      "pagePath": "pages/myOrder/myOrder",
+      "text": "订单",
+      "iconPath": "img/icon_orders@2x.png",
+      "selectedIconPath": "img/icon_orders_green@2x.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "img/icon_user@2x.png",
+      "selectedIconPath": "img/icon_user_green@2x.png"
+    }]
+  }
+}

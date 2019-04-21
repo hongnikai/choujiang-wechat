@@ -1,0 +1,72 @@
+<view class='installOrderDetail'>
+  <view class='installOrderDetail-progress' bindtap='toSchedule'>验收详情</view>
+  <view class='installOrderDetail-all'>
+    <!-- 预约上门时间 -->
+    <view class='installOrderDetail-time'>
+      <image src='../../img/icon_orders_time@2x.png'></image>
+      <text>预约上门时间</text>
+      <text class='installOrderDetail-time-text1'>上午</text>
+      <text class='installOrderDetail-time-text1'>2018.02.12</text>
+    </view>
+    <!-- 收货地址 -->
+    <view class='installOrderDetail-local'>
+      <image src='../../img/icon_user_dz@2x.png' class='installOrderDetail-local-img'></image>
+      <view class='installOrderDetail-local-view'>
+        <view class='installOrderDetail-local-view-name'>
+          <text>收货人：</text>
+          <text>哈哈哈</text>
+          <text>15467382987</text>
+        </view>
+        <view class='installOrderDetail-local-view-local'>
+          <text>收货地址：</text>
+          <text>辽宁省沈阳市浑南新区百科软件园</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 订单信息 -->
+  <view class='installOrderDetail-order'>
+    <view class='installOrderDetail-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>待付款</view>
+    </view>
+    <view class='installOrderDetail-order-mid'>
+      <view>安装</view>
+    </view>
+    <view class='installOrderDetail-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+      <text>单装</text>
+    </view>
+  </view>
+  <!-- 合计 -->
+  <view class='installOrderDetail-order-allMoney'>
+    <text class='installOrderDetail-order-allMoney-left'>合计：</text>
+    <text class='installOrderDetail-order-allMoney-right'>
+      <text>￥</text>
+      <text>6654</text>
+    </text>
+  </view>
+  <!-- 预定金 -->
+  <view class='installOrderDetail-order-deposit'>
+    <text class='installOrderDetail-order-deposit-left'>预定金：</text>
+    <text class='installOrderDetail-order-deposit-right'>
+      <text>￥</text>
+      <text>5218</text>
+    </text>
+  </view>
+  <!-- 剩余尾款 -->
+  <view class='installOrderDetail-order-payment'>
+    <text class='installOrderDetail-order-payment-left'>剩余尾款：</text>
+    <text class='installOrderDetail-order-payment-right'>
+      <text>￥</text>
+      <text>5421</text>
+    </text>
+  </view>
+</view>

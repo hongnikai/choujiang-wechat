@@ -1,0 +1,97 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.mineLocation{
+  width:100%;
+}
+.mineLocation-default{
+  width:100%;
+  height:68rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.mineLocation-default text{
+  font-size: 28rpx;
+  line-height:68rpx;
+}
+.mineLocation-default image{
+  width:22rpx;
+  height:22rpx;
+  float:right;
+  margin-top: 23rpx;
+}
+.mineLocation-msg{
+  width:100%;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.mineLocation-msg-list{
+  width:100%;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  border-bottom:1px solid #ccc;
+}
+.mineLocation-msg-list-top{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.mineLocation-msg-list-top-left{
+  width:40rpx;
+  height:40rpx;
+  margin-top: 15rpx;
+}
+.mineLocation-msg-list-top-right{
+  flex:1;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  color:#8d8d8d;
+}
+.mineLocation-msg-list-top-right1,.mineLocation-msg-list-top-right2{
+  width:100%;
+}
+.mineLocation-msg-list-top-right1{
+  height:50rpx;
+}
+.mineLocation-msg-list-top-right1 view{
+  display: inline-block;
+  font-size: 28rpx;
+  line-height:50rpx;
+}
+.mineLocation-msg-list-top-right1 view:nth-child(2){
+  float: right;
+}
+.mineLocation-msg-list-top-right2 text{
+  font-size: 28rpx;
+}
+.mineLocation-msg-list-bottom{
+  width:100%;
+  height:40rpx;
+}
+.mineLocation-msg-list-bottom text{
+  float:right;
+  font-size: 28rpx;
+  color:#f00;
+  margin-left: 30rpx;
+}
+.mineLocation-add{
+  width:92%;
+  height:100rpx;
+  background-color: #2abbb4;
+  color:#fff;
+  font-size: 36rpx;
+  line-height: 100rpx;
+  text-align: center;
+  position: fixed;
+  bottom:50rpx;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+  border-radius: 50rpx;
+}

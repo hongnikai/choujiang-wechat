@@ -1,0 +1,96 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.evaluationList{
+  width:100%;
+}
+.evaluationList-list{
+  width:100%;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.evaluationList-list-top{
+  width:100%;
+  height:70rpx;
+  display: flex;
+  flex-direction: row;
+}
+.evaluationList-list-top-left{
+  width:67rpx;
+  height:67rpx;
+}
+.evaluationList-list-top-right{
+  flex: 1;
+  height:70rpx;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+}
+.evaluationList-list-top-right-top,.evaluationList-list-top-right-time{
+  width:100%;
+}
+.evaluationList-list-top-right-top view{
+  float:left;
+  font-size: 28rpx;
+}
+.evaluationList-list-top-right-top1{
+  width:80%;
+}
+.evaluationList-list-top-right-top2{
+  width:20%;
+}
+.evaluationList-list-top-right-top image{
+  width:28rpx;
+  height:26rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+  margin-top: 4rpx;
+}
+.evaluationList-list-top-right-top text{
+  vertical-align: middle;
+}
+.evaluationList-list-top-right-time{
+  font-size: 25rpx;
+  color:#999;
+}
+.evaluationList-list-text{
+  width:100%;
+  padding-top: 10rpx;
+  font-size: 28rpx;
+}
+.evaluationList-list-img{
+  width:100%;
+  height:230rpx;
+  margin-top: 20rpx;
+}
+.evaluationList-list-img image{
+  width:220rpx;
+  height:220rpx;
+  display: block;
+  float: left;
+  margin-right: 10rpx;
+}
+.evaluationList-list-answer{
+  width:100%;
+}
+.evaluationList-list-answer-top{
+  width: 0;
+  height: 0;
+  margin-left: 36rpx;
+  border-right: 27rpx solid transparent;
+  border-bottom: 27rpx solid #fff8e5;
+  border-left: 27rpx solid transparent;
+}
+.evaluationList-list-answer-text{
+  width:100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff8e5;
+  font-size: 26rpx;
+}

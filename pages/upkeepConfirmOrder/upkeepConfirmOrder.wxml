@@ -1,0 +1,103 @@
+<view class='upkeepCO'>
+  <view class='upkeepCO-top'>
+    <!-- 预约上门时间 -->
+    <view class='upkeepCO-time' bindtap='toBookingTime'>
+      <image src='../../img/icon_orders_time@2x.png' class='upkeepCO-time1'></image>
+      <text>预约上门时间</text>
+      <image src='../../img/icon_in@2x.png' class='upkeepCO-time5'></image>
+      <text class='upkeepCO-time4'>上午</text>
+      <text class='upkeepCO-time3'>2017.03.25</text>
+    </view>
+    <!-- 收货地址 -->
+    <view class='upkeepCO-local' bindtap='toMineLocation'>
+      <view class='upkeepCO-local-left'>
+        <image src='../../img/icon_address@2x.png' class='upkeepCO-local-left-img'></image>
+        <view class='upkeepCO-local-left-view'>
+          <view class='upkeepCO-local-left-view1'>
+            <view>
+              <text>收货人：</text>
+              <text>哈哈哈</text>
+            </view>
+            <view>
+              <text>15203265874</text>
+            </view>
+          </view>
+          <view class='upkeepCO-local-left-view2'>
+            <text>收货地址：</text>
+            <text>沈阳市浑南新区百科软件园</text>
+          </view>
+        </view>
+      </view>
+      <image src='../../img/icon_in@2x.png' class='upkeepCO-local-right'></image>
+    </view>
+  </view>
+  <!-- 订单信息 -->
+  <view class='upkeepCO-order'>
+    <view class='upkeepCO-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>待付款</view>
+    </view>
+    <view class='upkeepCO-order-mid'>
+      <view>保养</view>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='upkeepCO-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+    </view>
+  </view>
+  <!-- 相同服务价格显示 -->
+  <view class='upkeepCO-service'>
+    <view class='upkeepCO-service-top'>相同服务价格显示</view>
+    <!-- 下面具体1 -->
+    <view class='upkeepCO-service-list'>
+      <view class='upkeepCO-service-list1'>
+        <text>美的</text>
+        <text>柜机</text>
+        <text>3匹</text>
+        <text>999</text>
+        <text>￥</text>
+      </view>
+    </view>
+  </view>
+  <!-- 合计 -->
+  <view class='upkeepCO-allMoney'>
+    <text class='upkeepCO-allMoney-left'>合计：</text>
+    <text class='upkeepCO-allMoney-right'>
+      <text>￥</text>
+      <text>6654</text>
+    </text>
+  </view>
+  <!-- 预定金 -->
+  <view class='upkeepCO-deposit'>
+    <text class='upkeepCO-deposit-left'>预定金：</text>
+    <text class='upkeepCO-deposit-right'>
+      <text>￥</text>
+      <text>5218</text>
+    </text>
+  </view>
+  <!-- 剩余尾款 -->
+  <view class='upkeepCO-payment'>
+    <text class='upkeepCO-payment-left'>剩余尾款：</text>
+    <text class='upkeepCO-payment-right'>
+      <text>￥</text>
+      <text>5421</text>
+    </text>
+  </view>
+  <!-- 底部 -->
+  <view class='upkeepCO-bottom'>
+    <view class='upkeepCO-bottom-left'>
+      <text>5545</text>
+      <text>￥</text>
+      <text>预定金:</text>
+      <text>10%</text>
+    </view>
+    <view class='upkeepCO-bottom-right'>确定</view>
+  </view>
+</view>

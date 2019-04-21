@@ -1,0 +1,30 @@
+<view class='mineMsg'>
+  <view class='mineMsg-all'>
+    <!-- 1 -->
+    <view class='mineMsg-list'>
+      <view class='mineMsg-list-top'>
+        <view>
+          <text>01.</text>
+          <text>客服回复您：</text>
+        </view>
+        <view>2017.03.25 12:25:26</view>
+      </view>
+      <view class='mineMsg-list-text'>
+        感谢您的惠顾，非常感谢，我们会继续努力，争取做到更好!!!
+      </view>
+    </view> 
+    <!-- 2 -->
+    <view class='mineMsg-list'>
+      <view class='mineMsg-list-top'>
+        <view>
+          <text>02.</text>
+          <text>客服回复您：</text>
+        </view>
+        <view>2017.03.25 12:25:26</view>
+      </view>
+      <view class='mineMsg-list-text'>
+        感谢您的惠顾，非常感谢，我们会继续努力，争取做到更好!!!
+      </view>
+    </view>  
+  </view>
+</view>

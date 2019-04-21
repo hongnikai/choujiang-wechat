@@ -1,0 +1,46 @@
+<view class='shopCar'>
+ <view  class='shopCarAll'> 
+  <!-- 购物车列表 -->
+  <view wx:for="{{carts}}">
+    <view class='shopCar-list'>
+      <view class='shopCar-list-inner'>
+        <!-- 选择按钮 -->
+        <image class='shopCar-list-inner-select' bindtap="switchSelect" data-index="{{index}}" data-id="{{index}}" src="{{item.isSelect?'../../img/icon_gwc_xz@2x.png':'../../img/icon_gwc_wxz@2x.png'}}"></image>
+        <image src='{{item.pic}}' class='shopCar-list-inner-img'></image>
+        <view class='shopCar-list-inner-shop'>
+          <text class='shopCar-list-inner-shop1'>{{item.name}}</text>
+          <text class='shopCar-list-inner-shop2'>{{item.style}}</text>
+          <view class='shopCar-list-inner-shop3'>
+            <view>
+              <text>￥</text>
+              <text>{{item.price}}</text>
+            </view>
+            <view>
+              <text>X</text>
+              <text>{{item.num}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+ </view> 
+  <!-- 购物车结算以及删除 -->
+  <view class='shopCar-bottom'>
+    <view class='shopCar-bottom-left'>
+      <view class='shopCar-bottom-left1'>
+        <image bindtap="allSelect" src="{{isAllSelect?'../../img/icon_gwc_xz@2x.png':'../../img/icon_gwc_wxz@2x.png'}}"></image>
+        <text>全选</text>
+      </view>
+      <view class='shopCar-bottom-left2'>
+        <text>合计：</text>
+        <text>￥</text>
+        <text>{{totalMoney}}</text>
+      </view>
+    </view>
+    <view class='shopCar-bottom-right'>
+      <view class='shopCar-bottom-right-jie' bindtap='toJieSuan'>结算</view>
+      <view class='shopCar-bottom-right-del' bindtap='delete'>删除</view>
+    </view>
+  </view>
+</view>

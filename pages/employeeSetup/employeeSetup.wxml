@@ -1,0 +1,12 @@
+<view class='employee-setup'>
+  <view class='employee-setup-all'>
+    <view class='employee-setup-I'>
+      <text>关于我们</text>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='employee-setup-I'>
+      <text>退出员工组</text>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+  </view>
+</view>

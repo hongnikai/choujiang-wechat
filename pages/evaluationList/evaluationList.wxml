@@ -1,0 +1,35 @@
+<view class='evaluationList'>
+  <!-- 评价列表 -->
+  <view class='evaluationList-list'>
+    <!-- 评价列表顶部 -->
+    <view class='evaluationList-list-top'>
+      <image src='../../img/img_detail_user@2x.png' class='evaluationList-list-top-left'></image>
+      <view class='evaluationList-list-top-right'>
+        <view class='evaluationList-list-top-right-top'>
+          <view class='evaluationList-list-top-right-top1'>哈哈哈</view>
+          <view class='evaluationList-list-top-right-top2'>
+            <image src='../../img/huifu.png'></image>
+            <text>回复</text>
+          </view>
+        </view>
+        <view class='evaluationList-list-top-right-time'>2017-02-15</view>
+      </view>
+    </view>
+    <!-- 评价列表内容 -->
+    <view class='evaluationList-list-text'>非常好，很满意，超级好，特别好，很喜欢</view>
+    <!-- 评价列表图片 -->
+    <view class='evaluationList-list-img'>
+      <image src='../../img/img_yanshou@2x.png'></image>
+      <image src='../../img/img_yanshou@2x.png'></image>
+      <image src='../../img/img_yanshou@2x.png'></image>
+    </view>
+    <!-- 评价列表回复 -->
+    <view class='evaluationList-list-answer'>
+      <view class='evaluationList-list-answer-top'></view>
+      <view class='evaluationList-list-answer-text'>
+        <view>客服回复：</view>
+        <view>感谢您的回复，我们会继续努力!!!</view>
+      </view>
+    </view>
+  </view>
+</view>

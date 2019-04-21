@@ -1,0 +1,104 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.evaluation{
+  width:100%;
+}
+.evaluation-word{
+  width:100%;
+  height:240rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding:30rpx;
+  box-sizing: border-box;
+}
+.evaluation-word-title,.evaluation-img-title{
+  width:100%;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.evaluation-word-content{
+  width:100%;
+  height:130rpx;
+  border: 1rpx solid #e8e8e8;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.evaluation-word-content textarea{
+  width:100%;
+  height:100%;
+  font-size: 28rpx;
+}
+.evaluation-img{
+  width:100%;
+  height:230rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.evaluation-img-content{
+  width:100%;
+  height:130rpx;
+  margin-top: 15rpx;
+}
+.evaluation-img-content image{
+  width:125rpx;
+  height:125rpx;
+}
+.evaluation-score{
+  width:100%;
+  height:250rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.evaluation-product{
+  width:100%;
+  height:40rpx;
+   margin-bottom: 20rpx;
+}
+.evaluation-product1,.evaluation-product2,.evaluation-product3{
+  display: inline-block;
+}
+.evaluation-product1{
+  color:#999;
+  width:200rpx;
+  font-size: 32rpx;
+  line-height:40rpx;
+}
+.evaluation-product2{
+  width:300rpx;
+  margin-left: 60rpx;
+}
+.evaluation-product2 image{
+  width:36rpx;
+  height:36rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+.evaluation-product3{
+  line-height:40rpx;
+  color:#f00;
+  font-size: 28rpx;
+}
+.evaluation-submit{
+  width:92%;
+  height:102rpx;
+  position: fixed;
+  bottom:60rpx;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+  background-color: #2abbb4;
+  color:#fff;
+  font-size: 36rpx;
+  text-align: center;
+  line-height:102rpx;
+  border-radius:40rpx;
+}

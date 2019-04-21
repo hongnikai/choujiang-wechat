@@ -1,0 +1,84 @@
+<view class='orderDetail'>
+  <view class='orderDetail-progress'>进度详情</view>
+  <view class='orderDetail-all'>
+    <!-- 预约上门时间 -->
+    <view class='orderDetail-time'>
+      <image src='../../img/icon_orders_time@2x.png'></image>
+      <text>预约上门时间</text>
+      <text class='orderDetail-time-text1'>上午</text>
+      <text class='orderDetail-time-text1'>2018.02.12</text>
+    </view>
+    <!-- 收货地址 -->
+    <view class='orderDetail-local'>
+      <image src='../../img/icon_user_dz@2x.png' class='orderDetail-local-img'></image>
+      <view class='orderDetail-local-view'>
+        <view class='orderDetail-local-view-name'>
+          <text>收货人：</text>
+          <text>哈哈哈</text>
+          <text>15467382987</text>
+        </view>
+        <view class='orderDetail-local-view-local'>
+          <text>收货地址：</text>
+          <text>辽宁省沈阳市浑南新区百科软件园</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 订单详情部分 -->
+  <view class='orderDetail-detail'>
+    <view class='orderDetail-detail-top'>
+      <text>01.</text>
+      <text>单号</text>
+      <text>125478554</text>
+      <text>待付款</text>
+    </view>
+    <!-- 订单具体内容 -->
+    <!-- 1 -->
+    <view class='orderDetail-detail1-content'>
+      <image src='../../img/img_sp@2x.png' class='orderDetail-detail1-content-img'></image>
+      <view class='orderDetail-detail1-content-view'>
+        <view>美的空调</view>
+        <view>xx款</view>
+        <view>
+          <text class='orderDetail-detail1-content-view3-left'>
+            <text>￥</text>
+            <text>5000</text>
+          </text>
+          <text class='orderDetail-detail1-content-view3-right'>
+            <text>X</text>
+            <text>1</text>
+          </text>
+        </view>
+      </view>
+    </view>
+    <!-- 备注 -->
+    <view class='orderDetail-note'>
+      <text>备注：</text>
+      <text>美的空调仅商用空调显示</text>
+    </view>
+  </view>
+  <!-- 合计 -->
+  <view class='orderDetail-order-allMoney'>
+    <text class='orderDetail-order-allMoney-left'>合计：</text>
+    <text class='orderDetail-order-allMoney-right'>
+      <text>￥</text>
+      <text>6654</text>
+    </text>
+  </view>
+  <!-- 预定金 -->
+  <view class='orderDetail-order-deposit'>
+    <text class='orderDetail-order-deposit-left'>预定金：</text>
+    <text class='orderDetail-order-deposit-right'>
+      <text>￥</text>
+      <text>5218</text>
+    </text>
+  </view>
+  <!-- 剩余尾款 -->
+  <view class='orderDetail-order-payment'>
+    <text class='orderDetail-order-payment-left'>剩余尾款：</text>
+    <text class='orderDetail-order-payment-right'>
+      <text>￥</text>
+      <text>5421</text>
+    </text>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<view class='employeesList'>
+  <!-- 1 -->
+  <view class='employeesList-list'>
+    <text>哈哈哈</text>
+    <text class='employeesList-list1'>分</text>
+    <text class='employeesList-list1'>90</text>
+  </view>
+  <!-- 2 -->
+  <view class='employeesList-list'>
+    <text>哈哈哈</text>
+    <text class='employeesList-list2'>分</text>
+    <text class='employeesList-list2'>60</text>
+  </view>
+</view>

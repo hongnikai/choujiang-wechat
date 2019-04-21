@@ -1,0 +1,42 @@
+<view class='manage'>
+  <!-- 用户姓名和名称 -->
+  <view class='manage-user'>
+    <!-- 设置和消息按钮 -->
+    <view class='manage-user-top'>
+      <image src='../../img/icon_user_set@2x.png' class='manage-user-top-left' bindtap='toSetup'></image>
+      <image src='../../img/icon_user_msg@2x.png' class='manage-user-top-right' bindtap='toMineMsg'></image>
+    </view>
+    <!-- 用户头像和名称 -->
+    <view class='manage-user-mid'>
+      <image src='../../img/user_photo@2x.png'></image>
+      <text>管理部哈哈哈</text>
+    </view>
+  </view>
+  <!-- 我的订单 -->
+  <view class='manage-order'>
+    <view class='manage-order-left'>员工工作</view>
+    <view class='manage-order-right' bindtap='toEmployeesWork'>
+      <text>查看全部</text>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+  </view>
+  <!-- 底部导航栏 -->
+  <view class='manage-footer'>
+    <view bindtap='toIndex'>
+      <image src='../../img/icon_home@2x.png'></image>
+      <text>首页</text>
+    </view>
+    <view>
+      <image src='../../img/icon_fenlei@2x.png'></image>
+      <text>分类</text>
+    </view>
+    <view bindtap='toEmployeeOrder'>
+      <image src='../../img/icon_orders@2x.png'></image>
+      <text>订单</text>
+    </view>
+    <view>
+      <image src='../../img/icon_user_green@2x.png'></image>
+      <text class='manage-footer-text4'>我的</text>
+    </view>
+  </view>
+</view>

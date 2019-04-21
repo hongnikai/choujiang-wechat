@@ -1,0 +1,225 @@
+.search{
+  position: relative;
+}
+.search-top{
+  width:100%;
+  height:80rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+.search-top-left{
+  flex: 1;
+  width:620rpx;
+  height:54rpx;
+  border: 1px solid #aaa;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+.search-top-left-input{
+  flex: 1;
+  width:600rpx;
+  height:54rpx;
+  font-size: 25rpx;
+  border: 0;
+}
+.search-top-left-image{
+  width:25rpx;
+  height:25rpx;
+  margin-top: 14.5rpx;
+}
+.search-top-right{
+  width:80rpx;
+  height:54rpx;
+  line-height:54rpx;
+  text-align: right;
+  font-size: 28rpx;
+}
+.search-classify{
+  width:100%;
+  height:70rpx;
+  border-top:1px solid #e5e5e5;
+  padding: 12rpx 0;
+  box-sizing: border-box;
+}
+.search-classify-all,.search-classify-price,.search-classify-sales,.search-classify-choose{
+  float:left;
+}
+.search-classify-all{
+  width:23%;
+  height:48rpx;
+  border-right:1px solid #e5e5e5;
+  text-align: center;
+  line-height:48rpx;
+  font-size: 28rpx;
+}
+.search-classify-price,.search-classify-sales{
+  width:27%;
+  height:48rpx;
+  border-right:1px solid #e5e5e5;
+}
+.search-classify-choose{
+  width:22%;
+  height:48rpx;
+  text-align: center;
+  line-height:48rpx;
+  font-size: 28rpx;
+}
+.search-classify-price-text,.search-classify-sales-text{
+  width:45%;
+  height:48rpx;
+  margin: 0 auto;
+}
+.search-classify-price-text1,.search-classify-price-text2{
+  float:left;
+}
+.search-classify-sales-text1,.search-classify-sales-text2{
+  float:left;
+}
+.search-classify-price-text1,.search-classify-sales-text1{
+  font-size: 28rpx;
+  vertical-align: middle;
+  line-height:48rpx;
+}
+.search-classify-price-text2,.search-classify-sales-text2{
+  width:15rpx;
+  height:25rpx;
+  margin-top: 12rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.search-bai{
+  width:100%;
+  height:10rpx;
+  background-color: #f2f2f2;
+}
+.search-text{
+  width:100%;
+}
+.search-text1{
+  width:50%;
+  height:480rpx;
+  float:left;
+}
+.search-text1 image{
+  width:100%;
+  height:375rpx;
+}
+.search-text11{
+  width:100%;
+  font-size: 28rpx;
+  color:#000;
+  text-align: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-text12{
+  width:100%;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  color:#e60012;
+  text-align: center;
+}
+.search-hui{
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 222;
+  display: block;
+}
+.search-choose{
+  width:79%;
+  height:100%;
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom:0;
+  left:21%;
+  background-color: #fff;
+  z-index: 22222;
+  display: block;
+}
+.tanHide{
+  display: none;
+}
+.search-choose-top{
+  width:100%;
+  overflow: auto;
+  padding: 50rpx 0rpx 0 18rpx;
+  box-sizing: border-box;
+}
+.search-choose-top-brand,.search-choose-top-type{
+  width:100%;
+  margin-top: 10rpx;
+}
+.search-choose-top-brand1,.search-choose-top-type1{
+  font-size: 28rpx;
+  width:100%;
+  margin-bottom: 18rpx;
+}
+.search-choose-top-brand2,.search-choose-top-type2{
+  width:100%;
+}
+.search-choose-top-brand2 text,.search-choose-top-type2 text{
+  width:180rpx;
+  height:72rpx;
+  display: inline-block;
+  font-size: 28rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+  line-height:72rpx;
+}
+.is_checked{
+  background-color:#2abbb4;
+  color:#fff;
+}
+.normal{
+  background-color:#e5e5e5;
+  color:#999;
+}
+.search-choose-bottom{
+  width:100%;
+  height:72rpx;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+.search-choose-bottom view{
+  width:50%;
+  height:72rpx;
+  float:left;
+}
+.search-choose-bottom text{
+  width:100%;
+  height:72rpx;
+  display: block;
+  line-height:72rpx;
+  text-align: center;
+}
+.search-choose-bottom-input1{
+  background-color: #94ddd9;
+  color:#fff;
+  font-size: 28rpx;
+}
+.search-choose-bottom-input2{
+  background-color: #2abbb4;
+  color:#fff;
+  font-size: 28rpx;
+}

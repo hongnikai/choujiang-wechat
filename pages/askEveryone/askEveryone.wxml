@@ -1,0 +1,43 @@
+<view class='askEveryone'>
+  <!-- 没有问题的时候的显示 -->
+  <view class='askEveryone-no'>
+    <text>关于</text>
+    <text>美的变频空调美的变频空调美的变频空调</text>
+    <text>的问题</text>
+  </view>
+  <!-- 有问题的时候的显示 -->
+  <view class='askEveryone-yes'>
+    <view class='askEveryone-yes1' bindtap='toAskDetail'>
+      <view class='askEveryone-yes1-ask'>
+        <image src='../../img/icon_detail_wen@2x.png'></image>
+        <view>
+          <text>大家都是用什么软件添加的，我为什么添加不了</text>
+        </view>
+      </view>
+      <view class='askEveryone-yes1-answer'>
+        <image src='../../img/icon_detail_da@2x.png'></image>
+        <view>
+          <text>大家都是用什么软件添加的，我为什么添加不了</text>
+        </view>
+      </view>
+      <view class='askEveryone-yes1-bottom'>
+        <view class='askEveryone-yes1-bottom-left'>
+          <text>全部</text>
+          <text>2</text>
+          <text>个回答</text>
+        </view>
+        <view class='askEveryone-yes1-bottom-right'>
+          <text>更新于</text>
+          <text>2018-12-15</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部提问 -->
+  <view class='askEveryone-bottom'>
+    <view class='askEveryone-bottom-left'>
+      <input type='text' placeholder='向119位已买过的人提问，4~40字'></input>
+    </view>
+    <view class='askEveryone-bottom-right'>提问</view>
+  </view>
+</view>

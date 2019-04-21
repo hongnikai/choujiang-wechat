@@ -1,0 +1,65 @@
+<view class='employeeCenter'>
+  <!-- 用户姓名和名称 -->
+  <view class='employeeCenter-user'>
+    <!-- 设置和消息按钮 -->
+    <view class='employeeCenter-user-top'>
+      <image src='../../img/icon_user_set@2x.png' class='employeeCenter-user-top-left' bindtap='toSetup'></image>
+      <image src='../../img/icon_user_msg@2x.png' class='employeeCenter-user-top-right' bindtap='toMineMsg'></image>
+    </view>
+    <!-- 用户头像和名称 -->
+    <view class='employeeCenter-user-mid'>
+      <image src='../../img/user_photo@2x.png'></image>
+      <text>哈哈哈</text>
+    </view>
+  </view>
+  <!-- 我的订单 -->
+  <view class='employeeCenter-order'>
+    <view class='employeeCenter-order-left'>我的订单</view>
+    <view class='employeeCenter-order-right'>
+      <text>查看全部</text>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+  </view>
+  <!-- 三种类型的订单 -->
+  <view class='employeeCenter-order-classfy'>
+    <view>
+      <image src='../../img/20180222154835.png'></image>
+      <text>待接单</text>
+    </view>
+    <view>
+      <image src='../../img/20180222155641.png'></image>
+      <text>未完成</text>
+    </view>
+    <view>
+      <image src='../../img/20180222155626.png'></image>
+      <text>已完成</text>
+    </view>
+  </view>
+  <!-- 当前评分 -->
+  <view class='employeeCenter-score'>
+    <view class='employeeCenter-score-top'>当前评分</view>
+    <view class='employeeCenter-score-mid'>
+      <text>100</text>
+      <text>分</text>
+    </view>
+  </view>
+  <!-- 底部导航栏 -->
+  <view class='employeeCenter-footer'>
+    <view bindtap='toIndex'>
+      <image src='../../img/icon_home@2x.png'></image>
+      <text>首页</text>
+    </view>
+    <view>
+      <image src='../../img/icon_fenlei@2x.png'></image>
+      <text>分类</text>
+    </view>
+    <view bindtap='toEmployeeOrder'>
+      <image src='../../img/icon_orders@2x.png'></image>
+      <text>订单</text>
+    </view>
+    <view>
+      <image src='../../img/icon_user_green@2x.png'></image>
+      <text class='employeeCenter-footer-text4'>我的</text>
+    </view>
+  </view>
+</view>

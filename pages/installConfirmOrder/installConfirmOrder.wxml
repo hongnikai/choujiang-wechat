@@ -1,0 +1,104 @@
+<view class='installCO'>
+  <view class='installCO-top'>
+    <!-- 预约上门时间 -->
+    <view class='installCO-time' bindtap='toBookingTime'>
+      <image src='../../img/icon_orders_time@2x.png' class='installCO-time1'></image>
+      <text>预约上门时间</text>
+      <image src='../../img/icon_in@2x.png' class='installCO-time5'></image>
+      <text class='installCO-time4'>上午</text>
+      <text class='installCO-time3'>2017.03.25</text>
+    </view>
+    <!-- 收货地址 -->
+    <view class='installCO-local' bindtap='toMineLocation'>
+      <view class='installCO-local-left'>
+        <image src='../../img/icon_address@2x.png' class='installCO-local-left-img'></image>
+        <view class='installCO-local-left-view'>
+          <view class='installCO-local-left-view1'>
+            <view>
+              <text>收货人：</text>
+              <text>哈哈哈</text>
+            </view>
+            <view>
+              <text>15203265874</text>
+            </view>
+          </view>
+          <view class='installCO-local-left-view2'>
+            <text>收货地址：</text>
+            <text>沈阳市浑南新区百科软件园</text>
+          </view>
+        </view>
+      </view>
+      <image src='../../img/icon_in@2x.png' class='installCO-local-right'></image>
+    </view>
+  </view>
+  <!-- 订单信息 -->
+  <view class='installCO-order'>
+    <view class='installCO-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>待付款</view>
+    </view>
+    <view class='installCO-order-mid'>
+      <view>安装</view>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='installCO-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+      <text>单装</text>
+    </view>
+  </view>
+  <!-- 相同服务价格显示 -->
+  <view class='installCO-service'>
+    <view class='installCO-service-top'>相同服务价格显示</view>
+    <!-- 下面具体1 -->
+    <view class='installCO-service-list'>
+      <view class='installCO-service-list1'>
+        <text>美的</text>
+        <text>柜机</text>
+        <text>3匹</text>
+        <text>999</text>
+        <text>￥</text>
+      </view>
+    </view>
+  </view>
+  <!-- 合计 -->
+  <view class='installCO-allMoney'>
+    <text class='installCO-allMoney-left'>合计：</text>
+    <text class='installCO-allMoney-right'>
+      <text>￥</text>
+      <text>6654</text>
+    </text>
+  </view>
+  <!-- 预定金 -->
+  <view class='installCO-deposit'>
+    <text class='installCO-deposit-left'>预定金：</text>
+    <text class='installCO-deposit-right'>
+      <text>￥</text>
+      <text>5218</text>
+    </text>
+  </view>
+  <!-- 剩余尾款 -->
+  <view class='installCO-payment'>
+    <text class='installCO-payment-left'>剩余尾款：</text>
+    <text class='installCO-payment-right'>
+      <text>￥</text>
+      <text>5421</text>
+    </text>
+  </view>
+  <!-- 底部 -->
+  <view class='installCO-bottom'>
+    <view class='installCO-bottom-left'>
+      <text>5545</text>
+      <text>￥</text>
+      <text>预定金:</text>
+      <text>10%</text>
+    </view>
+    <view class='installCO-bottom-right'>支付</view>
+  </view>
+</view>

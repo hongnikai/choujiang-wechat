@@ -1,0 +1,129 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.offer{
+  width:100%;
+}
+.offer-text{
+  width:100%;
+  height:555rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  border-top: 1rpx solid #cccdc8;
+}
+.offer-text-price{
+  width:100%;
+  height:250rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+.offer-text-price-top{
+  width:100%;
+  height:60rpx;
+  border-bottom:1rpx solid #ccc;
+}
+.offer-text-price-top text{
+  line-height:60rpx;
+  font-size: 28rpx;
+  color:#343434;
+}
+.offer-text-mid{
+  width:100%;
+  height:185rpx;
+  padding: 20rpx 0 20rpx 40rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.offer-text-mid-img{
+  width:140rpx;
+  height:140rpx;
+}
+.offer-text-mid-view{
+  flex: 1;
+  padding-left:20rpx;
+  box-sizing: border-box;
+}
+.offer-text-mid-view view{
+  width:100%;
+  height:40rpx;
+  font-size: 28rpx;
+  line-height:40rpx;
+}
+.offer-text-mid-view3{
+  height:56rpx !important;
+  margin-top: 10rpx;
+}
+.offer-text-mid-view3 text,.offer-text-mid-view3 input{
+  display: inline-block;
+}
+.offer-text-mid-view3 text{
+  height:56rpx;
+  line-height:56rpx;
+}
+.offer-text-mid-view31{
+  color:#f00;
+  float: left;
+}
+.offer-text-mid-view3 input{
+  width:120rpx;
+  height:38rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+  outline: none;
+  color:#f00;
+  padding-left:10rpx;
+  box-sizing: border-box;
+}
+.offer-text-mid-view32,.offer-text-mid-view33{
+  float:right;
+  color:#2abbb4;
+}
+.offer-text-note{
+  width:100%;
+  height:350rpx;
+  padding-top: 36rpx;
+  padding-right:20rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.offer-text-note-left{
+  width:100rpx;
+  font-size: 28rpx;
+}
+.offer-text-note-right{
+  flex: 1;
+}
+.offer-text-note-right textarea{
+  width:100%;
+  height:230rpx;
+  border:1rpx solid #ccc;
+  border-radius: 15rpx;
+  font-size: 28rpx;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.offer-bottom{
+  width:100%;
+  margin-top: 20rpx;
+}
+.offer-bottom-allMoney,.offer-bottom-deposit,.offer-bottom-payment{
+  width:100%;
+  height:85rpx;
+  margin-top: 2rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  line-height:85rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.offer-bottom-allMoney-right,.offer-bottom-deposit-right,.offer-bottom-payment-right{
+  float:right;
+  color:#f00;
+}

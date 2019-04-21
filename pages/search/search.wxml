@@ -1,0 +1,105 @@
+<view class='search'>
+  <!-- 搜索框 -->
+  <view class='search-top'>
+    <view class='search-top-left'>
+      <input type='text' placeholder='请输入搜索关键词' confirm-type='search' class='search-top-left-input' bindinput='searchValue'></input>
+      <image src='../../img/home_nav_search@2x.png' class='search-top-left-image' bindtap='searchTap'></image>
+    </view>
+    <view class='search-top-right'>取消</view>
+  </view>
+  <!-- 搜索内容分类 -->
+  <view class='search-classify'>
+    <view class='search-classify-all'>
+      综合
+    </view>
+    <view class='search-classify-price'>
+      <view class='search-classify-price-text' bindtap='priceChange'>
+        <view class='search-classify-price-text1'>价格</view>
+        <image src="../../img/icon_sx2@2x.png" class='search-classify-price-text2'></image>
+        <!-- <image src="../../img/icon_sx@2x.png" class='search-classify-price-text2'></image>
+        <image src="../../img/icon_sx3@2x.png" class='search-classify-price-text2'></image> -->
+      </view>
+    </view>
+    <view class='search-classify-sales'>
+      <view class='search-classify-sales-text' bindtap='salesChange'>
+        <view class='search-classify-sales-text1'>销量</view>
+        <image src="../../img/icon_sx2@2x.png" class='search-classify-sales-text2'></image>
+      </view>
+    </view>
+    <view class='search-classify-choose' bindtap="clickAppear">
+      筛选
+    </view>
+  </view>
+  <!-- 空白条 -->
+  <view class='search-bai'></view>
+  <!-- 搜索内容 -->
+  <view class='search-text'>
+    <block wx:for="{{searchList}}" wx:key="id">
+      <view class='search-text1' bindtap="toast">
+        <image src="{{item.detaile_picture}}"></image>
+        <view class='search-text11'>{{item.name}}</view>
+        <view class='search-text12'>￥{{item.price}}</view>
+      </view>
+    </block>
+  </view>
+  <!-- 背景灰 -->
+  <view class='{{showView?"search-hui":"tanHide"}}' bindtap="clickHide"></view>
+  <!-- 筛选弹框 -->
+  <view class='{{showView?"search-choose":"tanHide"}}'>
+    <view class='search-choose-top'>
+      <!-- 品牌 -->
+      <view class='search-choose-top-brand'>
+        <view class='search-choose-top-brand1'>品牌</view>
+        <view class='search-choose-top-brand2'>
+          <block wx:for="{{brandList}}" wx:key="id" wx:for-index="i">
+            <text bindtap="brandSelection" class="{{currentItem==item.id?'is_checked':'normal'}}" data-id="{{item.id}}">{{item.brand}}</text>
+          </block>
+        </view> 
+      </view>
+      <!-- 空调种类 -->
+      <view class='search-choose-top-type'>
+        <view class='search-choose-top-type1'>空调种类</view>
+        <view class='search-choose-top-type2'>
+          <block wx:for="{{typeList}}" wx:key="id" wx:for-index="i">
+            <text bindtap="typeSelection" class="{{typeItem==item.id?'is_checked':'normal'}}" data-id="{{item.id}}">{{item.type}}</text>
+          </block>
+        </view>
+      </view>
+      <!-- 分类 -->
+      <view class='search-choose-top-type'>
+        <view class='search-choose-top-type1'>分类</view>
+        <view class='search-choose-top-type2'>
+          <block wx:for="{{classifyList}}" wx:key="id" wx:for-index="i">
+            <text bindtap="classifySelection" class="{{classifyItem==item.id?'is_checked':'normal'}}" data-id="{{item.id}}">{{item.type}}</text>
+          </block>
+        </view>
+      </view>
+      <!-- 频率 -->
+      <view class='search-choose-top-type'>
+        <view class='search-choose-top-type1'>频率</view>
+        <view class='search-choose-top-type2'>
+          <block wx:for="{{frequencyList}}" wx:key="id" wx:for-index="i">
+            <text bindtap="frequencySelection" class="{{frequencyItem==item.id?'is_checked':'normal'}}" data-id="{{item.id}}">{{item.type}}</text>
+          </block>
+        </view>
+      </view>
+      <!-- 频率 -->
+      <view class='search-choose-top-type'>
+        <view class='search-choose-top-type1'>功率</view>
+        <view class='search-choose-top-type2'>
+          <block wx:for="{{powerList}}" wx:key="id" wx:for-index="i">
+            <text bindtap="powerSelection" class="{{powerItem==item.id?'is_checked':'normal'}}" data-id="{{item.id}}">{{item.type}}</text>
+          </block>
+        </view>
+      </view>
+    </view>
+    <view class='search-choose-bottom'>
+      <view>
+        <text class='search-choose-bottom-input1'>重置</text>
+      </view>
+      <view>
+        <text class='search-choose-bottom-input2' bindtap="clickHide">确定</text>
+      </view>
+    </view>
+  </view>
+</view>

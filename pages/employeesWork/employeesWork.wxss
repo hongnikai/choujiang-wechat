@@ -1,0 +1,54 @@
+.employeesWork{
+  width:100%;
+  padding: 40rpx 20rpx 0 20rpx;
+  box-sizing: border-box;
+}
+.employeesWork-type{
+  width:100%;
+}
+.employeesWork-type-top{
+  width:100%;
+  height:50rpx;
+  font-size: 28rpx;
+}
+.employeesWork-type-text{
+  width:100%;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}
+.employeesWork-type-text view{
+  width:45%;
+  height:115rpx;
+  display: inline-block;
+  line-height: 115rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.employeesWork-type-text-viewClick{
+  background-color: #2abbb4;
+  color:#fff;
+}
+.employeesWork-type-text-view{
+  border: 1px solid #2abbb4;
+  color:#2abbb4;
+}
+.employeesWork-type-text view:nth-child(2n+2){
+  margin-left: 8%;
+}
+.employeesWork-type-next{
+  width:92%;
+  height:100rpx;
+  background-color: #2abbb4;
+  color:#fff;
+  text-align: center;
+  line-height:100rpx;
+  font-size:34rpx;
+  border-radius:40rpx;
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom:100rpx;
+  margin: auto;
+}

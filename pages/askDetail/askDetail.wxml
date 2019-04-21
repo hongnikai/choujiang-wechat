@@ -1,0 +1,58 @@
+<view class='askDetail'>
+  <!-- 提问的商品信息 -->
+  <view class='askDetail-msg'>
+    <image src='../../img/img_detail_wdj_sp@2x.png' class='askDetail-msg-left'></image>
+    <view class='askDetail-msg-mid'>
+      <text>美的空调好好好好好美的空调好好好好好</text>
+    </view>
+    <image src='../../img/icon_in@2x.png' class='askDetail-msg-right'></image>
+  </view>
+  <!-- 具体提问信息 -->
+  <view class='askDetail-detail'>
+    <view class='askDetail-ask'>
+      <image src='../../img/icon_detail_wen@2x.png'></image>
+      <view>
+        <text>大家都是用什么软件添加的，我为什么添加不了</text>
+      </view>
+    </view>
+    <!-- 1 -->
+    <view class='askDetail-ask-detail'>
+      <image src='../../img/img_detail_user@2x.png' class='askDetail-ask-detailL'></image>
+      <view class='askDetail-ask-detailR'>
+        <view class='askDetail-ask-detailR-top'>
+          <text>哈哈哈</text>
+          <text>已买</text>
+        </view>
+        <view class='askDetail-ask-detailR-time'>2017-03-15</view>
+        <view class='askDetail-ask-detailR-text'>不推荐购买，不好的</view>
+        <view class='askDetail-ask-detailR-btn'>
+          <image src='../../img/icon_detail_yy@2x.png'></image>
+          <text>有用</text>
+        </view>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class='askDetail-ask-detail'>
+      <image src='../../img/img_detail_user@2x.png' class='askDetail-ask-detailL'></image>
+      <view class='askDetail-ask-detailR'>
+        <view class='askDetail-ask-detailR-top'>
+          <text>哈哈哈</text>
+          <text>已买</text>
+        </view>
+        <view class='askDetail-ask-detailR-time'>2017-03-15</view>
+        <view class='askDetail-ask-detailR-text'>不推荐购买，不好的</view>
+        <view class='askDetail-ask-detailR-btn'>
+          <image src='../../img/icon_detail_yy@2x.png'></image>
+          <text>有用</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部提问 -->
+  <view class='askDetail-bottom'>
+    <view class='askDetail-bottom-left'>
+      <input type='text' placeholder='输入您的回答'></input>
+    </view>
+    <view class='askDetail-bottom-right'>发送</view>
+  </view>
+</view>

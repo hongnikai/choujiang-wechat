@@ -1,0 +1,60 @@
+<view class='maintainSchedule'>
+  <!-- 上门照片 -->
+  <view class='maintainSchedule-photo1'>
+    <view class='maintainSchedule-photo1-top'>上门照片</view>
+    <view class='maintainSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!--机器检测照片 -->
+  <view class='maintainSchedule-photo1'>
+    <view class='maintainSchedule-photo1-top'>机器检测照片</view>
+    <view class='maintainSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 维修详情 -->
+  <view class='maintainSchedule-photo2'>
+    <view class='maintainSchedule-photo2-top'>维修详情</view>
+    <view class='maintainSchedule-photo2-text'>
+      <textarea>我的建议我的建议</textarea>
+    </view>
+    <!-- 维修报价（元） -->
+    <view class='maintainSchedule-money'>
+      <view class='maintainSchedule-money-top'>维修报价(元)</view>
+      <view class='maintainSchedule-money-text'>
+        <input type='text' value='200'></input>
+      </view>
+    </view>
+  </view>
+  <!-- 维修更换部件照片 -->
+  <view class='maintainSchedule-photo1'>
+    <view class='maintainSchedule-photo1-top'>维修更换部件照片</view>
+    <view class='maintainSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 维修完工建议 -->
+  <view class='maintainSchedule-photo1'>
+    <view class='maintainSchedule-photo1-top'>维修完工建议</view>
+    <view class='maintainSchedule-photo1-text'>
+      <textarea>我的建议我的建议</textarea>
+    </view>
+  </view>
+  <!-- 输入金额 -->
+  <view class='maintainSchedule-tabMoney'>
+    <view class='maintainSchedule-tabMoney-top'>输入金额</view>
+    <view class='maintainSchedule-tabMoney-text'>
+      <text>￥</text>
+      <input type='text' value='200'></input>
+    </view>
+  </view>
+  <!-- 确认按钮 -->
+  <view class='maintainSchedule-sure'>确认完成并结尾款</view>
+</view>

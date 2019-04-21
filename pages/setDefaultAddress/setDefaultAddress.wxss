@@ -1,0 +1,57 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.setDefaultAddress{
+  width:100%;
+}
+.setDefaultAddress-all{
+  width:100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.setDefaultAddress-msg-list{
+  width:100%;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  border-bottom:1px solid #ccc;
+}
+.setDefaultAddress-msg-list-top{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.setDefaultAddress-msg-list-top-left{
+  width:40rpx;
+  height:40rpx;
+  margin-top: 15rpx;
+}
+.setDefaultAddress-msg-list-top-right{
+  flex:1;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  color:#8d8d8d;
+}
+.setDefaultAddress-msg-list-top-right1,.setDefaultAddress-msg-list-top-right2{
+  width:100%;
+}
+.setDefaultAddress-msg-list-top-right1{
+  height:50rpx;
+}
+.setDefaultAddress-msg-list-top-right1 view{
+  display: inline-block;
+  font-size: 28rpx;
+  line-height:50rpx;
+}
+.setDefaultAddress-msg-list-top-right1 view:nth-child(2){
+  float: right;
+}
+.setDefaultAddress-msg-list-top-right2 text{
+  font-size: 28rpx;
+}

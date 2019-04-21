@@ -1,0 +1,81 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.editAddress{
+  width:100%;
+}
+.editAddress-all{
+  width:100%;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.editAddress-name{
+  width:100%;
+  height:100rpx;
+  border-bottom:1px solid #cccccc;
+  display: flex;
+  flex-direction: row;
+}
+.editAddress-name-left{
+  width:170rpx;
+  height:100rpx;
+  line-height:100rpx;
+  font-size: 30rpx;
+}
+.editAddress-name-right{
+  flex:1;
+  height:100rpx;
+}
+.editAddress-name-right input{
+  width:100%;
+  height:100rpx;
+  font-size: 30rpx;
+  border:0;
+  outline: none;
+  text-align: right;
+}
+.picker-view {
+ width: 100%;
+ display: flex;
+ z-index:12;
+ background-color: #fff;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: fixed;
+ bottom: 0rpx;
+ left: 0rpx;
+ height: 40vh;
+}
+.picker-item {
+ line-height: 70rpx;
+ margin-left: 5rpx;
+ margin-right: 5rpx;
+ text-align: center;
+}
+.dialog-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.3);
+}
+.editAddress-save{
+  width:100%;
+  height:104rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  text-align: center;
+  line-height:104rpx;
+  color: #f00;
+  font-size: 36rpx;
+}

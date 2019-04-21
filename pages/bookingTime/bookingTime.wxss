@@ -1,0 +1,63 @@
+.bookingTime{
+  width:100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.bookingTime-time1 view:first-child{
+  width:100%;
+  font-size: 30rpx;
+}
+.section{
+   background:#fff;
+   border:1px solid #2abbb4;
+   border-radius: 10rpx;
+   margin:20rpx;
+   padding:20rpx;
+   box-sizing: border-box;
+}
+.bookingTime-time21{
+  width:100%;
+  font-size:30rpx;
+}
+.bookingTime-time22{
+  width:61%;
+  height:50rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}
+.bookingTime-time22 view{
+  width:110rpx;
+  height:50rpx;
+  float: left;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height:50rpx;
+}
+.bookingTime-time22 view:nth-child(2){
+  margin-left:45rpx;
+}
+.bookingTime-time22 view:nth-child(3){
+  float:right;
+}
+.bookingTime-time22-view{
+  border:1px solid #ccc;
+  color:#333;
+  background-color: #fff;
+}
+.bookingTime-time22-viewClick{
+  color:#fff;
+  background-color: #2abbb4;
+}
+.bookingTime-sure{
+  width:92%;
+  height:100rpx;
+  margin: 0 auto;
+  margin-top: 100rpx;
+  border-radius: 40rpx;
+  background-color: #2abbb4;
+  color:#fff;
+  text-align: center;
+  line-height:100rpx;
+  font-size: 36rpx;
+}

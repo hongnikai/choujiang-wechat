@@ -1,0 +1,31 @@
+<view class='installSchedule'>
+  <!-- 上门照片 -->
+  <view class='installSchedule-photo1'>
+    <view class='installSchedule-photo1-top'>上门照片</view>
+    <view class='installSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 安装位置确认 -->
+  <view class='installSchedule-photo1'>
+    <view class='installSchedule-photo1-top'>安装位置确认</view>
+    <view class='installSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 安装确认 -->
+  <view class='installSchedule-photo1'>
+    <view class='installSchedule-photo1-top'>安装确认</view>
+    <view class='installSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 确认按钮 -->
+  <view class='installSchedule-sure'>确认完成并结尾款</view>
+</view>

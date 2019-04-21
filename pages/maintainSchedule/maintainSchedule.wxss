@@ -1,0 +1,115 @@
+.maintainSchedule{
+  width:100%;
+  border-top: 20rpx solid #f2f2f2;
+}
+.maintainSchedule-photo1{
+  width:100%;
+  height:380rpx;
+  border-bottom:1rpx solid #ccc;
+  padding:34rpx;
+  box-sizing: border-box;
+}
+.maintainSchedule-photo1-top{
+  width:100%;
+  height:70rpx;
+  border-bottom:1rpx solid #e5e5e5;
+  font-size: 28rpx;
+  line-height:70rpx;
+}
+.maintainSchedule-photo1-img{
+  width:100%;
+  height:230rpx;
+  padding-top:20rpx;
+}
+.maintainSchedule-photo1-img image{
+  width:33%;
+  height:210rpx;
+  display: inline-block;
+}
+.maintainSchedule-photo1-img image:nth-child(2){
+  margin: 0 0.5%;
+}
+.maintainSchedule-sure{
+  width:92%;
+  height:100rpx;
+  background-color: #2abbb4;
+  color:#fff;
+  font-size: 35rpx;
+  text-align: center;
+  line-height:100rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+  margin-bottom: 60rpx;
+  border-radius: 40rpx; 
+}
+.maintainSchedule-photo2{
+  width:100%;
+  height:540rpx;
+  border-bottom:1rpx solid #ccc;
+  padding:34rpx;
+  box-sizing: border-box;
+}
+.maintainSchedule-photo2-top,.maintainSchedule-money-top,.maintainSchedule-photo1-top,.maintainSchedule-tabMoney-top{
+  width:100%;
+  height:70rpx;
+  font-size: 28rpx;
+  line-height:70rpx;
+}
+.maintainSchedule-photo2-text,.maintainSchedule-photo1-text{
+  width:100%;
+  height:230rpx;
+  padding-top:20rpx;
+}
+.maintainSchedule-photo2-text textarea,.maintainSchedule-photo1-text textarea{
+  width:100%;
+  height:100%;
+  border: 1px solid #ccc;
+  text-indent: 15rpx;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+  font-size: 28rpx;
+}
+.maintainSchedule-money-text{
+  width:100%;
+  height:60rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+}
+.maintainSchedule-money-text input{
+  width:100%;
+  height:100%;
+  outline: none;
+  font-size: 28rpx;
+}
+.maintainSchedule-tabMoney{
+  width:100%;
+  height:255rpx;
+  padding:34rpx;
+  box-sizing: border-box;
+}
+.maintainSchedule-tabMoney-text{
+  width:56%;
+  height:90rpx;
+  margin: 0 auto;
+}
+.maintainSchedule-tabMoney-text text{
+  color: #f00;
+  font-size: 50rpx;
+  height:90rpx;
+  line-height:90rpx;
+}
+.maintainSchedule-tabMoney-text text,.maintainSchedule-tabMoney-text input{
+ float:left;
+}
+.maintainSchedule-tabMoney-text input{
+  width:250rpx;
+  height:100%;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  text-align: center;
+  color:#f00;
+  font-size: 50rpx;
+}

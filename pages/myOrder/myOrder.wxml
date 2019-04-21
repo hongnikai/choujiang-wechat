@@ -1,0 +1,238 @@
+<view class='myOrder'>
+  <!-- 我的订单头部 -->
+  <view class='myOrder-top'>
+    <view bindtap='textClick1'>
+      <text class="{{isChecked1?'myOrder-top-textClick':'myOrder-top-text'}}">全部</text>
+    </view>
+    <view bindtap='textClick2'>
+      <text class="{{isChecked2?'myOrder-top-textClick':'myOrder-top-text'}}">待付款</text>
+    </view>
+    <view bindtap='textClick3'>
+      <text class="{{isChecked3?'myOrder-top-textClick':'myOrder-top-text'}}">未完成</text>
+    </view>
+    <view bindtap='textClick4'>
+      <text class="{{isChecked4?'myOrder-top-textClick':'myOrder-top-text'}}">已完成</text>
+    </view>
+  </view>
+  <!-- 我的订单详情部分 -->
+  <view class='myOrder-detail'>
+    <!-- 未完成的样式1 -->
+    <view class='myOrder-detail1'>
+      <view class='myOrder-detail1-top'>
+        <text>01.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>未完成</text>
+      </view>
+      <!-- 订单具体内容 -->
+      <!-- 1 -->
+      <view class='myOrder-detail1-content'>
+        <image src='../../img/img_sp@2x.png' class='myOrder-detail1-content-img'></image>
+        <view class='myOrder-detail1-content-view'>
+          <view>美的空调</view>
+          <view>xx款</view>
+          <view>
+            <text class='myOrder-detail1-content-view3-left'>
+              <text>￥</text>
+              <text>5000</text>
+            </text>
+            <text class='myOrder-detail1-content-view3-right'>
+              <text>X</text>
+              <text>1</text>
+            </text>
+          </view>
+        </view>
+      </view>
+      <!-- 合计尾款部分 -->
+      <view class='myOrder-detail1-combined'>
+        <view class='myOrder-detail1-combined-left'>
+          <text>共</text>
+          <text>1</text>
+          <text>件商品</text>
+          <text>合计：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+        <view class='myOrder-detail1-combined-right'>
+          <text>剩余尾款：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+      </view>
+      <!-- 按钮部分 -->
+      <view class='myOrder-detail1-button'>
+        <view>支付尾款</view>
+      </view>
+    </view>
+    <!-- 未完成样式2 -->
+    <view class='myOrder-detail2'>
+      <view class='myOrder-detail1-top'>
+        <text>02.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>未完成</text>
+      </view>
+      <!-- 详情部分 -->
+      <view class='myOrder-detail2-content'>
+        <view class='myOrder-detail2-content1'>
+          <!-- 维修/保养/安装 -->
+          <view>维修</view>
+          <image src='../../img/icon_in@2x.png'></image>
+        </view>
+        <view class='myOrder-detail2-content2'>
+          <text>美的空调</text>
+          <text>家用中央空调</text>
+          <text>柜机</text>
+          <text>3匹</text>
+        </view>
+      </view>
+    </view>
+    <!-- 已完成样式1 -->
+    <view class='myOrder-detail3'>
+      <view class='myOrder-detail1-top'>
+        <text>01.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>已完成</text>
+      </view>
+      <!-- 订单具体内容 -->
+      <!-- 1 -->
+      <view class='myOrder-detail1-content'>
+        <image src='../../img/img_sp@2x.png' class='myOrder-detail1-content-img'></image>
+        <view class='myOrder-detail1-content-view'>
+          <view>美的空调</view>
+          <view>xx款</view>
+          <view>
+            <text class='myOrder-detail1-content-view3-left'>
+              <text>￥</text>
+              <text>5000</text>
+            </text>
+            <text class='myOrder-detail1-content-view3-right'>
+              <text>X</text>
+              <text>1</text>
+            </text>
+          </view>
+        </view>
+      </view>
+      <!-- 合计尾款部分 -->
+      <view class='myOrder-detail1-combined'>
+        <view class='myOrder-detail1-combined-left'>
+          <text>共</text>
+          <text>1</text>
+          <text>件商品</text>
+          <text>合计：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+        <view class='myOrder-detail1-combined-right'>
+          <text>剩余尾款：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+      </view>
+      <!-- 按钮部分 -->
+      <view class='myOrder-detail1-button'>
+        <view>立即评价</view>
+        <view>我要安装</view>
+      </view>
+    </view>
+    <!-- 已完成样式2 -->
+    <view class='myOrder-detail3'>
+      <view class='myOrder-detail1-top'>
+        <text>01.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>已完成</text>
+      </view>
+      <!-- 订单具体内容 -->
+      <!-- 1 -->
+      <view class='myOrder-detail1-content'>
+        <image src='../../img/img_sp@2x.png' class='myOrder-detail1-content-img'></image>
+        <view class='myOrder-detail1-content-view'>
+          <view>美的空调</view>
+          <view>xx款</view>
+          <view>
+            <text class='myOrder-detail1-content-view3-left'>
+              <text>￥</text>
+              <text>5000</text>
+            </text>
+            <text class='myOrder-detail1-content-view3-right'>
+              <text>X</text>
+              <text>1</text>
+            </text>
+          </view>
+        </view>
+      </view>
+      <!-- 合计尾款部分 -->
+      <view class='myOrder-detail1-combined'>
+        <view class='myOrder-detail1-combined-left'>
+          <text>共</text>
+          <text>1</text>
+          <text>件商品</text>
+          <text>合计：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+        <view class='myOrder-detail1-combined-right'>
+          <text>剩余尾款：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+      </view>
+      <!-- 按钮部分 -->
+      <view class='myOrder-detail1-button'>
+        <view>二次评价</view>
+        <view class='myOrder-detail1-button-finish'>已安装</view>
+      </view>
+    </view>
+    <!-- 待付款样式1 -->
+    <view class='myOrder-detail3'>
+      <view class='myOrder-detail1-top'>
+        <text>01.</text>
+        <text>单号</text>
+        <text>555412544</text>
+        <text>待付款</text>
+      </view>
+      <!-- 订单具体内容 -->
+      <!-- 1 -->
+      <view class='myOrder-detail1-content'>
+        <image src='../../img/img_sp@2x.png' class='myOrder-detail1-content-img'></image>
+        <view class='myOrder-detail1-content-view'>
+          <view>美的空调</view>
+          <view>xx款</view>
+          <view>
+            <text class='myOrder-detail1-content-view3-left'>
+              <text>￥</text>
+              <text>5000</text>
+            </text>
+            <text class='myOrder-detail1-content-view3-right'>
+              <text>X</text>
+              <text>1</text>
+            </text>
+          </view>
+        </view>
+      </view>
+      <!-- 合计尾款部分 -->
+      <view class='myOrder-detail1-combined'>
+        <view class='myOrder-detail1-combined-left'>
+          <text>共</text>
+          <text>1</text>
+          <text>件商品</text>
+          <text>合计：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+        <view class='myOrder-detail1-combined-right'>
+          <text>剩余尾款：</text>
+          <text>￥</text>
+          <text>5666</text>
+        </view>
+      </view>
+      <!-- 按钮部分 -->
+      <view class='myOrder-detail1-button'>
+        <view>取消订单</view>
+        <view>立即支付</view>
+      </view>
+    </view>
+  </view>
+</view>

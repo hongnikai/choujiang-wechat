@@ -1,0 +1,58 @@
+<view class='offer'>
+  <!-- 订单价格以及备注 -->
+  <view class='offer-text'>
+    <!-- 订单价格 -->
+    <view class='offer-text-price'>
+      <view class='offer-text-price-top'>
+        <text>01.</text>
+        <text>单号</text>
+        <text>552541254422</text>
+      </view>
+      <view class='offer-text-mid'>
+        <image src='../../img/img_home_gl@2x.png' class='offer-text-mid-img'></image>
+        <view class='offer-text-mid-view'>
+          <view>美的空调</view>
+          <view>柜式</view>
+          <view class='offer-text-mid-view3'>
+            <text class='offer-text-mid-view31'>￥</text>
+            <input type='text' value='900'></input>
+            <text class='offer-text-mid-view33'>1</text>
+            <text class='offer-text-mid-view32'>X</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='offer-text-note'>
+      <view class='offer-text-note-left'>备注：</view>
+      <view class='offer-text-note-right'>
+        <textarea>哈哈哈哈或哈哈哈哈哈哈哈哈哈哈哈</textarea>
+      </view>
+    </view>
+  </view>
+  <view class='offer-bottom'>
+    <!-- 合计 -->
+    <view class='offer-bottom-allMoney'>
+      <text class='offer-bottom-allMoney-left'>合计：</text>
+      <text class='offer-bottom-allMoney-right'>
+        <text>￥</text>
+        <text>6654</text>
+      </text>
+    </view>
+    <!-- 预定金 -->
+    <view class='offer-bottom-deposit'>
+      <text class='offer-bottom-deposit-left'>预定金：</text>
+      <text class='offer-bottom-deposit-right'>
+        <text>￥</text>
+        <text>5218</text>
+      </text>
+    </view>
+    <!-- 剩余尾款 -->
+    <view class='offer-bottom-payment'>
+      <text class='offer-bottom-payment-left'>剩余尾款：</text>
+      <text class='offer-bottom-payment-right'>
+        <text>￥</text>
+        <text>5421</text>
+      </text>
+    </view>
+  </view>
+</view>

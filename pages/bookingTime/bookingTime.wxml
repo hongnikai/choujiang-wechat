@@ -1,0 +1,24 @@
+<view class='bookingTime'>
+  <!-- 选择日期 -->
+  <view class='bookingTime-time1'>
+    <view>选择日期</view>
+    <view class="section">  
+      <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">  
+        <view class="picker">  
+          {{dates}}  
+        </view>  
+      </picker>  
+    </view>  
+  </view>
+  <!-- 选择时间段 -->
+  <view class='bookingTime-time2'>
+    <view class='bookingTime-time21'>选择时间段</view>
+    <view class='bookingTime-time22'>
+      <block wx:for="{{timeList}}" wx:key="id" wx:for-index="i">
+        <view class="{{timeItem==item.id?'bookingTime-time22-viewClick':'bookingTime-time22-view'}}" data-id="{{item.id}}" bindtap="timeSelection">{{item.time}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 确定按钮 -->
+  <view class='bookingTime-sure' bindtap='toInstallConfirmOrder'>确定</view>
+</view>

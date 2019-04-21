@@ -1,0 +1,56 @@
+<view class='upkeepSchedule'>
+  <!-- 上门照片 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>上门照片</view>
+    <view class='upkeepSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 压力、电流、维修检测 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>压力、电流、维修检测</view>
+    <view class='upkeepSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 清洗前 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>清洗前</view>
+    <view class='upkeepSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 清洗中 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>清洗中</view>
+    <view class='upkeepSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 清洗后 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>清洗后</view>
+    <view class='upkeepSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 维修完工建议 -->
+  <view class='upkeepSchedule-photo1'>
+    <view class='upkeepSchedule-photo1-top'>维修完工建议</view>
+    <view class='upkeepSchedule-photo1-text'>
+      <textarea>我的建议我的建议</textarea>
+    </view>
+  </view>
+  <!-- 确认按钮 -->
+  <view class='upkeepSchedule-sure'>确认完成并结尾款</view>
+</view>

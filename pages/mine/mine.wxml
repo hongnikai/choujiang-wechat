@@ -1,0 +1,62 @@
+<view class='mine'>
+  <!-- 用户姓名和名称 -->
+  <view class='mine-user'>
+    <!-- 设置和消息按钮 -->
+    <view class='mine-user-top'>
+      <image src='../../img/icon_user_set@2x.png' class='mine-user-top-left' bindtap='toSetup'></image>
+      <image src='../../img/icon_user_msg@2x.png' class='mine-user-top-right' bindtap='toMineMsg'></image>
+    </view>
+    <!-- 用户头像和名称 -->
+    <view class='mine-user-mid'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <!-- 我的订单 -->
+  <view class='mine-order'>
+    <view class='mine-order-left'>我的订单</view>
+    <view class='mine-order-right'>
+      <text>查看全部</text>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+  </view>
+  <!-- 三种类型的订单 -->
+  <view class='mine-order-classfy'>
+    <view>
+      <image src='../../img/icon_user_dfk@2x.png'></image>
+      <text>待付款</text>
+    </view>
+    <view>
+      <image src='../../img/icon_user_wwc@2x.png'></image>
+      <text>未完成</text>
+    </view>
+    <view>
+      <image src='../../img/icon_user_ywc@2x.png'></image>
+      <text>已完成</text>
+    </view>
+  </view>
+  <!-- 我的购物车 -->
+  <view class='mine-shopCar'>
+    <image src='../../img/icon_user_gwc@2x.png'></image>
+    <text>我的购物车</text>
+    <image src='../../img/icon_in@2x.png'></image>
+  </view>
+  <!-- 我的收藏 -->
+  <view class='mine-shopCar' bindtap='toMyCollection'>
+    <image src='../../img/icon_user_sc@2x.png'></image>
+    <text>我的收藏</text>
+    <image src='../../img/icon_in@2x.png'></image>
+  </view>
+  <!-- 我的地址 -->
+  <view class='mine-shopCar' bindtap='toMineLocation'>
+    <image src='../../img/icon_user_dz@2x.png'></image>
+    <text>我的地址</text>
+    <image src='../../img/icon_in@2x.png'></image>
+  </view>
+  <!-- 售后/客服 -->
+  <view class='mine-shopCar'>
+    <image src='../../img/icon_user_sh@2x.png'></image>
+    <text>售后/客服</text>
+    <image src='../../img/icon_in@2x.png'></image>
+  </view>
+</view>

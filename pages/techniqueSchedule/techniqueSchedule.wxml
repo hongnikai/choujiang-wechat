@@ -1,0 +1,31 @@
+<view class='techniqueSchedule'>
+  <!-- 上门照片 -->
+  <view class='techniqueSchedule-photo1'>
+    <view class='techniqueSchedule-photo1-top'>上门照片</view>
+    <view class='techniqueSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 压力、电流、维修检测 -->
+  <view class='techniqueSchedule-photo1'>
+    <view class='techniqueSchedule-photo1-top'>安装位置确认</view>
+    <view class='techniqueSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 清洗前 -->
+  <view class='techniqueSchedule-photo1'>
+    <view class='techniqueSchedule-photo1-top'>安装确认</view>
+    <view class='techniqueSchedule-photo1-img'>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+      <image src='../../img/img_home_aks@3x.png'></image>
+    </view>
+  </view>
+  <!-- 确认按钮 -->
+  <view class='techniqueSchedule-sure'>提交给客户</view>
+</view>

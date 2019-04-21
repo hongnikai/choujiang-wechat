@@ -1,0 +1,29 @@
+<view class='myCollection'>
+  <view class='myCollection-all'>
+    <view class='myCollection-text' bindtap="toDetail">
+      <image src="../../img/img_sp@2x.png"></image>
+      <view class='myCollection-text1'>美的空调</view>
+      <view class='myCollection-text2'>￥4444</view>
+    </view>
+    <view class='myCollection-text' bindtap="toDetail">
+      <image src="../../img/img_sp@2x.png"></image>
+      <view class='myCollection-text1'>美的空调</view>
+      <view class='myCollection-text2'>￥4444</view>
+    </view>
+    <view class='myCollection-text' bindtap="toDetail">
+      <image src="../../img/img_sp@2x.png"></image>
+      <view class='myCollection-text1'>美的空调</view>
+      <view class='myCollection-text2'>￥4444</view>
+    </view>
+    <view class='myCollection-text' bindtap="toDetail">
+      <image src="../../img/img_sp@2x.png"></image>
+      <view class='myCollection-text1'>美的空调</view>
+      <view class='myCollection-text2'>￥4444</view>
+    </view>
+    <view class='myCollection-text' bindtap="toDetail">
+      <image src="../../img/img_sp@2x.png"></image>
+      <view class='myCollection-text1'>美的空调</view>
+      <view class='myCollection-text2'>￥4444</view>
+    </view>
+  </view>
+</view>

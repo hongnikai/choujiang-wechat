@@ -1,0 +1,79 @@
+<view class='maintainCO'>
+  <view class='maintainCO-top'>
+    <!-- 预约上门时间 -->
+    <view class='maintainCO-time' bindtap='toBookingTime'>
+      <image src='../../img/icon_orders_time@2x.png' class='maintainCO-time1'></image>
+      <text>预约上门时间</text>
+      <image src='../../img/icon_in@2x.png' class='maintainCO-time5'></image>
+      <text class='maintainCO-time4'>上午</text>
+      <text class='maintainCO-time3'>2017.03.25</text>
+    </view>
+    <!-- 收货地址 -->
+    <view class='maintainCO-local' bindtap='toMineLocation'>
+      <view class='maintainCO-local-left'>
+        <image src='../../img/icon_address@2x.png' class='maintainCO-local-left-img'></image>
+        <view class='maintainCO-local-left-view'>
+          <view class='maintainCO-local-left-view1'>
+            <view>
+              <text>收货人：</text>
+              <text>哈哈哈</text>
+            </view>
+            <view>
+              <text>15203265874</text>
+            </view>
+          </view>
+          <view class='maintainCO-local-left-view2'>
+            <text>收货地址：</text>
+            <text>沈阳市浑南新区百科软件园</text>
+          </view>
+        </view>
+      </view>
+      <image src='../../img/icon_in@2x.png' class='maintainCO-local-right'></image>
+    </view>
+  </view>
+  <!-- 订单信息 -->
+  <view class='maintainCO-order'>
+    <view class='maintainCO-order-top'>
+      <view>
+        <text>01.</text>
+        <text>单号</text>
+        <text>85858855885</text>
+      </view>
+      <view>待付款</view>
+    </view>
+    <view class='maintainCO-order-mid'>
+      <view>维修</view>
+      <image src='../../img/icon_in@2x.png'></image>
+    </view>
+    <view class='maintainCO-order-bottom'>
+      <text>美的</text>
+      <text>商用中央空调</text>
+      <text>柜机</text>
+      <text>2匹</text>
+    </view>
+  </view>
+  <!-- 相同服务价格显示 -->
+  <view class='maintainCO-service'>
+    <view class='maintainCO-service-top'>相同服务价格显示</view>
+    <!-- 下面具体1 -->
+    <view class='maintainCO-service-list'>
+      <view class='maintainCO-service-list1'>
+        <text>美的</text>
+        <text>柜机</text>
+        <text>3匹</text>
+        <text>999</text>
+        <text>￥</text>
+      </view>
+    </view>
+  </view>
+  <!-- 底部 -->
+  <view class='maintainCO-bottom'>
+    <view class='maintainCO-bottom-left'>
+      <text>5545</text>
+      <text>￥</text>
+      <text>预定金:</text>
+      <text>10%</text>
+    </view>
+    <view class='maintainCO-bottom-right'>支付</view>
+  </view>
+</view>

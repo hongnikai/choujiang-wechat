@@ -1,0 +1,143 @@
+page {
+  -webkit-user-select:none;
+  user-select:none;
+  width:100%;
+  overflow-x:hidden;
+  height:100%;
+  background-color:#f2f2f2;
+}
+.shopCar{
+  width:100%;
+  min-height:100%;
+}
+.shopCarAll{
+  padding-bottom: 90rpx;
+}
+.shopCar-list{
+  width:100%;
+  height:196rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding:0 30rpx;
+  box-sizing: border-box;
+}
+.shopCar-list-inner{
+  width:100%;
+  height:196rpx;
+  border-bottom:1px solid #eee;
+  display: flex;
+  flex-direction: row;
+}
+.shopCar-list-inner-select{
+  width:30rpx;
+  height:30rpx;
+  display: block;
+  margin-right:16rpx;
+  margin-top: 83rpx;
+}
+.shopCar-list-inner-img{
+  width:140rpx;
+  height:140rpx;
+  display: block;
+  margin-top: 28rpx;
+}
+.shopCar-list-inner-shop{
+  flex: 1;
+  height:196rpx;
+  padding-left: 10rpx;
+  padding-top: 28rpx;
+  box-sizing: border-box;
+}
+.shopCar-list-inner-shop1{
+  width:100%;
+  display: block;
+  font-size: 28rpx;
+}
+.shopCar-list-inner-shop2{
+  width:100%;
+  display: block;
+  font-size: 28rpx;
+  color:#999;
+}
+.shopCar-list-inner-shop3{
+  width:100%;
+  margin-top: 40rpx;
+}
+.shopCar-list-inner-shop3 view{
+  width:50%;
+  display: block;
+  float:left;
+  font-size: 25rpx;
+}
+.shopCar-list-inner-shop3 view:first-child{
+  color:#ff0000;
+}
+.shopCar-list-inner-shop3 view:nth-child(2){
+  color:#2abbb4;
+  text-align: right;
+}
+/* 购物车结算以及删除部分 */
+.shopCar-bottom{
+  width:100%;
+  height:82rpx;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+.shopCar-bottom-left,.shopCar-bottom-right{
+  float:left;
+}
+.shopCar-bottom-left{
+  width:73%;
+  height:100%;
+  padding-left: 26rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.shopCar-bottom-left1{
+  width:120rpx;
+  height:82rpx;
+}
+.shopCar-bottom-left1 image{
+  width:30rpx;
+  height:30rpx; 
+  vertical-align: middle;
+}
+.shopCar-bottom-left1 text{
+  font-size: 25rpx;
+  margin-left:10rpx;
+  line-height:82rpx;
+  vertical-align: middle;
+}
+.shopCar-bottom-left2{
+  flex:1;
+  padding-left:30rpx;
+  box-sizing: border-box;
+  font-size: 25rpx;
+  line-height:82rpx;
+}
+.shopCar-bottom-left2 text:nth-child(2),.shopCar-bottom-left2 text:nth-child(3){
+  color:#ff0000;
+}
+.shopCar-bottom-right{
+  width:27%;
+  height:100%;
+}
+.shopCar-bottom-right view{
+  width:50%;
+  height:100%;
+  float:left;
+  color:#fff;
+  text-align: center;
+  line-height:82rpx;
+  font-size: 28rpx;
+}
+.shopCar-bottom-right-jie{
+  background-color: #88d9d5;
+}
+.shopCar-bottom-right-del{
+  background-color: #2abbb4;
+}

@@ -1,0 +1,24 @@
+<view class='registration'>
+  <view class='registration-text'>
+    <view class='registration-text1'>
+      <image src='../../img/icon_user@2x.png'></image>
+      <input type='text' placeholder='请输入姓名'></input>
+    </view>
+    <view class='registration-text1'>
+      <image src='../../img/icon_user@2x.png'></image>
+      <input type='text' placeholder='请输入手机号'></input>
+    </view>
+    <view class='registration-text1'>
+      <image src='../../img/20180222154816.png'></image>
+      <!-- 选择框 -->
+      <picker bindchange="bindCasPickerChange" value="{{casIndex1}}" range="{{casArray}}">
+      <view>
+        <input type='text' placeholder='请选择分组' value='{{casArray[casIndex]}}'></input> 
+      </view>
+     </picker>
+    </view>
+    <view class='registration-text2'>(销售部/安装部/管理部)</view>
+  </view> 
+  <!-- 注册按钮 -->
+  <view class='registration-btn'>注册</view>
+</view>

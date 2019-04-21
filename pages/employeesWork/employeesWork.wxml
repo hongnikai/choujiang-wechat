@@ -1,0 +1,13 @@
+<view class='employeesWork'>
+  <!-- 安装类型 -->
+  <view class='employeesWork-type'>
+    <view class='employeesWork-type-top'>请选择员工分组</view>
+    <view class='employeesWork-type-text'>
+     <block wx:for="{{employeesWorkTypeList}}" wx:key="id" wx:for-index="i">
+      <view class="{{employeesWorkTypeItem==item.id?'employeesWork-type-text-viewClick':'employeesWork-type-text-view'}}" data-id="{{item.id}}" bindtap="employeesWorkTypeSelection">{{item.employeesWorkType}}</view>
+      </block>
+    </view>
+  </view>
+  <!-- 确定 -->
+   <view class='employeesWork-type-next' bindtap='toEmployeesList'>确定</view> 
+</view>

@@ -1,0 +1,57 @@
+<view class='salesOrder'>
+  <!-- 订单详情部分 -->
+  <!-- 1 -->
+  <view class='salesOrder-detail'>
+    <view class='salesOrder-detail-top'>
+      <text>01.</text>
+      <text>单号</text>
+      <text>125478554</text>
+      <text>员工</text>
+    </view>
+    <!-- 订单具体内容 -->
+    <view class='salesOrder-detail1-content'>
+      <image src='../../img/img_sp@2x.png' class='salesOrder-detail1-content-img'></image>
+      <view class='salesOrder-detail1-content-view'>
+        <view>美的空调</view>
+        <view>xx款</view>
+        <view>
+          <text class='salesOrder-detail1-content-view3-left'>
+            <text>￥</text>
+            <text>5000</text>
+          </text>
+          <text class='salesOrder-detail1-content-view3-right'>
+            <text>X</text>
+            <text>1</text>
+          </text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 2 -->
+  <view class='salesOrder-detail'>
+    <view class='salesOrder-detail-top'>
+      <text>01.</text>
+      <text>单号</text>
+      <text>125478554</text>
+      <text>员工</text>
+    </view>
+    <!-- 订单具体内容 -->
+    <view class='salesOrder-detail1-content'>
+      <image src='../../img/img_sp@2x.png' class='salesOrder-detail1-content-img'></image>
+      <view class='salesOrder-detail1-content-view'>
+        <view>美的空调</view>
+        <view>xx款</view>
+        <view>
+          <text class='salesOrder-detail1-content-view3-left'>
+            <text>￥</text>
+            <text>5000</text>
+          </text>
+          <text class='salesOrder-detail1-content-view3-right'>
+            <text>X</text>
+            <text>1</text>
+          </text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

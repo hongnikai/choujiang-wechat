@@ -1,0 +1,146 @@
+.employeeCenter{
+  width:100%;
+}
+.employeeCenter-user{
+  width:100%;
+  height:320rpx;
+}
+.employeeCenter-user-top{
+  width:100%;
+  height:46rpx;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.employeeCenter-user-top-left{
+  width:46rpx;
+  height:46rpx;
+}
+.employeeCenter-user-top-right{
+  width:46rpx;
+  height:46rpx;
+  float: right;
+}
+.employeeCenter-user-mid{
+  width:100%;
+  height:190rpx;
+  margin-top: 30rpx;
+}
+.employeeCenter-user-mid image{
+  display: block;
+  width:120rpx;
+  height:120rpx;
+  margin: 0 auto;
+}
+.employeeCenter-user-mid text{
+  display: block;
+  width:100%;
+  text-align: center;
+  font-size: 35rpx;
+  color:#333;
+  margin-top: 10rpx;
+}
+.employeeCenter-order{
+  width:100%;
+  height:90rpx;
+  border-bottom:1px solid #e5e5e5;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.employeeCenter-order view{
+  display: inline-block;
+}
+.employeeCenter-order-left{
+  line-height:90rpx;
+  font-size: 30rpx;
+}
+.employeeCenter-order-right{
+  float:right;
+}
+.employeeCenter-order-right image{
+  width:22rpx;
+  height:22rpx;
+  vertical-align: middle;
+}
+.employeeCenter-order-right text{
+  font-size: 28rpx;
+  line-height:90rpx;
+  vertical-align: middle;
+  color:#999;
+}
+.employeeCenter-order-classfy{
+  width:100%;
+  height:136rpx;
+  padding: 25rpx 40rpx;
+  box-sizing: border-box;
+}
+.employeeCenter-order-classfy view{
+  width:33%;
+  height:86rpx;
+  float:left;
+}
+.employeeCenter-order-classfy view image{
+  width:40rpx;
+  height:40rpx;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10rpx;
+}
+.employeeCenter-order-classfy view text{
+  display: block;
+  text-align: center;
+  font-size: 30rpx;
+  color:#999;
+}
+.employeeCenter-score{
+  width:100%;
+  height: 250rpx;
+  padding:0 40rpx;
+  box-sizing: border-box;
+  margin-top: 140rpx;
+}
+.employeeCenter-score-top{
+  font-size: 30rpx;
+}
+.employeeCenter-score-mid{
+  width:100%;
+  text-align: center;
+  color:#2abbb4;
+}
+.employeeCenter-score-mid text:first-child{
+  font-size: 110rpx;
+}
+.employeeCenter-score-mid text:nth-child(2){
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.employeeCenter-footer{
+  width:100%;
+  height:100rpx;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom: 0;
+  clear:both;
+}
+.employeeCenter-footer view{
+  width:25%;
+  height:100%;
+  float: left;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+.employeeCenter-footer image{
+  width:50rpx;
+  height:50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.employeeCenter-footer text{
+  font-size:20rpx;
+  text-align: center;
+  display: block;
+}
+.employeeCenter-footer-text4{
+  color:#2abbb4;
+}

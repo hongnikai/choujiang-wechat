@@ -1,0 +1,60 @@
+<view class='evaluation'>
+  <!-- 商品评价 -->
+  <view class='evaluation-word'>
+    <view class='evaluation-word-title'>商品评价</view>
+    <view class='evaluation-word-content'>
+      <textarea placeholder='请输入对商品的评价'></textarea>
+    </view>
+  </view>
+  <!-- 添加商品图片 -->
+  <view class='evaluation-img'>
+    <view class='evaluation-img-title'>添加商品图片</view>
+    <view class='evaluation-img-content'>
+      <image src='../../img/icon_ys_photo@2x.png'></image>
+    </view>
+  </view>
+  <!-- 评分 -->
+  <view class='evaluation-score'>
+    <!-- 商品评价 -->
+    <view class='evaluation-product'>
+      <text class='evaluation-product1'>商品评价</text>
+      <view class="evaluation-product2">
+        <block wx:for="{{one_1}}" wx:key="index">  
+          <image catchtap='in_xin1' id='{{index+1}}' data-in='use_sc1' src='../../img/icon-bigstar_yellow@2x.png'></image>  
+        </block>  
+        <block wx:for="{{two_1}}" wx:key="index">  
+          <image catchtap='in_xin1' id='{{index+1}}' data-in='use_sc0' src='../../img/icon-bigstar_grey@2x.png'></image>  
+        </block>  
+      </view>
+      <text class="evaluation-product3">{{one_1}}分</text>
+    </view>
+    <!-- 销售员评价 -->
+    <view class='evaluation-product'>
+      <text class='evaluation-product1'>销售员评价</text>
+      <view class="evaluation-product2">
+        <block wx:for="{{one_2}}" wx:key="index">  
+          <image catchtap='in_xin2' id='{{index+1}}' data-in='use_sc2' src='../../img/icon-bigstar_yellow@2x.png'></image>  
+        </block>  
+        <block wx:for="{{two_2}}" wx:key="index">  
+          <image catchtap='in_xin2' id='{{index+1}}' data-in='use_sc02' src='../../img/icon-bigstar_grey@2x.png'></image>  
+        </block>  
+      </view>
+      <text class="evaluation-product3">{{one_2}}分</text>
+    </view>
+    <!-- 安装工评价 -->
+    <view class='evaluation-product'>
+      <text class='evaluation-product1'>安装工评价</text>
+      <view class="evaluation-product2">
+        <block wx:for="{{one_3}}" wx:key="index">  
+          <image catchtap='in_xin3' id='{{index+1}}' data-in='use_sc3' src='../../img/icon-bigstar_yellow@2x.png'></image>  
+        </block>  
+        <block wx:for="{{two_3}}" wx:key="index">  
+          <image catchtap='in_xin3' id='{{index+1}}' data-in='use_sc03' src='../../img/icon-bigstar_grey@2x.png'></image>  
+        </block>  
+      </view>
+      <text class="evaluation-product3">{{one_3}}分</text>
+    </view>
+  </view>
+  <!-- 提交评价 -->
+  <view class='evaluation-submit'>提交</view>
+</view>
